@@ -634,6 +634,8 @@ void AutomaticallyObtainQuestions(BuildTreeStatsType &stats,
   if (phones.empty())
     KALDI_ERR << "No phones provided.";
 
+  // Now phones is a vector of all phones, all elements are unique and sorted. It's a flattened version of phones_sets.
+
   std::vector<int32> all_pdf_classes(all_pdf_classes_in);
   SortAndUniq(&all_pdf_classes);
   KALDI_ASSERT(!all_pdf_classes.empty());
@@ -642,6 +644,8 @@ void AutomaticallyObtainQuestions(BuildTreeStatsType &stats,
   FilterStatsByKey(stats, kPdfClass, all_pdf_classes,
                    true,  // retain only the listed positions
                    &retained_stats);
+
+  // Only elements whose pdf class is 1 will be retained
 
   if (retained_stats.size() * 10 < stats.size()) {
     std::ostringstream ss;
@@ -662,10 +666,17 @@ void AutomaticallyObtainQuestions(BuildTreeStatsType &stats,
   std::vector<BuildTreeStatsType> split_stats;  // split by phone.
   SplitStatsByKey(retained_stats, P, &split_stats);
 
+  // Now retained_stats are split by phone, that is, all element that have the same valure for key 1(means the middle phone for triphone) will be in a vector. The element is still a BuildTreeStatsType. So it split a big map to several small maps and save the result in a vector. 
+
   std::vector<Clusterable*> summed_stats;  // summed up by phone.
   SumStatsVec(split_stats, &summed_stats);
 
+  // Now the real important data will be summed_stats, which is a vector of Clusterable. The Clusterable object is a summation of all Clusterable objects in every map of split_stats
+  // Do the index of summed_stats have some meaning? How each element corresponds to a phone? I guess there is an assumption that the phone number start from 0 and is sequencial. So the first elemnt in summed_stats is for phone 1, and so on.
+
   int32 max_phone = phones.back();
+
+  // the max_phone + 1 means phone's index start from 0, I guess
   if (static_cast<int32>(summed_stats.size()) < max_phone+1) {
     // this can happen if the last phone had no data.. if we are using
     // stress-marked, position-marked phones, this can happen.  The later
@@ -690,6 +701,11 @@ void AutomaticallyObtainQuestions(BuildTreeStatsType &stats,
     for (size_t j = 1; j < this_set.size(); j++)
       summed_stats_per_set[i]->Add(*(summed_stats[this_set[j]]));
   }
+
+  // So now summed_stats saves the summed clusterable data for each phone, while summed_stats_per_set saves the summed clusterable data for each phone set.
+  // And from now on, summed_stats won't be used
+  // In the timit example, these are the same, because the phone_sets is the same as the phones( each phone sets have only one phone)
+
 
   int32 num_no_data = 0;
   for (size_t i = 0; i < summed_stats_per_set.size(); i++) {  // A check.
@@ -720,6 +736,7 @@ void AutomaticallyObtainQuestions(BuildTreeStatsType &stats,
   // we do it this way since there are typically few phones.
 
   std::vector<int32> assignments;  // assignment of phones to clusters. dim == summed_stats.size().
+  // So dim is the same as phones
   std::vector<int32> clust_assignments;  // Parent of each cluster.  Dim == #clusters.
   int32 num_leaves;  // number of leaf-level clusters.
   TreeCluster(summed_stats_per_set,
