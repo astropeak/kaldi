@@ -7,6 +7,8 @@
 # ConstArpaLm format language model.
 
 # begin configuration section
+cmd=run.pl
+logdir='./log'
 # end configuration section
 
 [ -f path.sh ] && . ./path.sh;
@@ -19,6 +21,7 @@ if [ $# != 3 ]; then
   echo "e.g.:"
   echo "  $0 data/local/lm/3-gram.full.arpa.gz data/lang/ data/lang_test_tgmed"
   echo "Options"
+  echo "  --cmd (utils/run.pl|utils/queue.pl <queue opts>) # how to run jobs."
   exit 1;
 fi
 
@@ -27,10 +30,12 @@ export LC_ALL=C
 arpa_lm=$1
 old_lang=$2
 new_lang=$3
+logdir=$new_lang/log
 
 mkdir -p $new_lang
 
 mkdir -p $new_lang
+mkdir -p $logdir
 cp -r $old_lang/* $new_lang
 
 unk=`cat $new_lang/oov.int`
@@ -42,6 +47,7 @@ if [[ -z $bos || -z $eos ]]; then
 fi
 
 
+  $cmd $logdir/build_const_arpa_lm.log \
 arpa-to-const-arpa --bos-symbol=$bos \
   --eos-symbol=$eos --unk-symbol=$unk \
   "gunzip -c $arpa_lm | utils/map_arpa_lm.pl $new_lang/words.txt|"  $new_lang/G.carpa  || exit 1;

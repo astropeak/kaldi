@@ -4,7 +4,8 @@
 # Set this to somewhere where you want to put your data, or where
 # someone else has already put it.  You'll want to change this
 # if you're not on the CLSP grid.
-data=/export/a15/vpanayotov/data
+# data=/export/a15/vpanayotov/data
+data=/home/fuqiang_luo/H/data
 
 # base url for downloads.
 data_url=www.openslr.org/resources/12
@@ -18,6 +19,7 @@ stage=1
 
 # you might not want to do this for interactive shells.
 set -e
+set -x
 
 
 if [ $stage -le 1 ]; then
@@ -69,9 +71,9 @@ fi
 
 if [ $stage -le 4 ]; then
   # Create ConstArpaLm format language model for full 3-gram and 4-gram LMs
-  utils/build_const_arpa_lm.sh data/local/lm/lm_tglarge.arpa.gz \
+  utils/build_const_arpa_lm.sh  --cmd "$train_cmd" data/local/lm/lm_tglarge.arpa.gz \
     data/lang_nosp data/lang_nosp_test_tglarge
-  utils/build_const_arpa_lm.sh data/local/lm/lm_fglarge.arpa.gz \
+  utils/build_const_arpa_lm.sh  --cmd "$train_cmd" data/local/lm/lm_fglarge.arpa.gz \
     data/lang_nosp data/lang_nosp_test_fglarge
 fi
 
@@ -240,9 +242,9 @@ if [ $stage -le 13 ]; then
                         "<UNK>" data/local/lang_tmp data/lang
   local/format_lms.sh --src-dir data/lang data/local/lm
 
-  utils/build_const_arpa_lm.sh \
+  utils/build_const_arpa_lm.sh   --cmd "$train_cmd" \
     data/local/lm/lm_tglarge.arpa.gz data/lang data/lang_test_tglarge
-  utils/build_const_arpa_lm.sh \
+  utils/build_const_arpa_lm.sh   --cmd "$train_cmd" \
     data/local/lm/lm_fglarge.arpa.gz data/lang data/lang_test_fglarge
 
   # decode using the tri4b model with pronunciation and silence probabilities
@@ -345,13 +347,13 @@ if [ $stage -le 17 ]; then
 fi
 
 if [ $stage -le 18 ]; then
-  steps/align_fmllr.sh --nj 40 --cmd "$train_cmd" \
-                       data/train_960 data/lang exp/tri5b exp/tri5b_ali_960
+  # steps/align_fmllr.sh --nj 40 --cmd "$train_cmd" \
+  #                      data/train_960 data/lang exp/tri5b exp/tri5b_ali_960
 
-  # train a SAT model on the 960 hour mixed data.  Use the train_quick.sh script
-  # as it is faster.
-  steps/train_quick.sh --cmd "$train_cmd" \
-                       7000 150000 data/train_960 data/lang exp/tri5b_ali_960 exp/tri6b
+  # # train a SAT model on the 960 hour mixed data.  Use the train_quick.sh script
+  # # as it is faster.
+  # steps/train_quick.sh --cmd "$train_cmd" \
+  #                      7000 150000 data/train_960 data/lang exp/tri5b_ali_960 exp/tri6b
 
   # decode using the tri6b model
   (

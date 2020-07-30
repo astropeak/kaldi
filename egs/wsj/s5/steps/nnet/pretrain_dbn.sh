@@ -111,7 +111,7 @@ echo
 [ -e $dir/${nn_depth}.dbn ] && echo "$0 Skipping, already have $dir/${nn_depth}.dbn" && exit 0
 
 # check if CUDA compiled in and GPU is available,
-if ! $skip_cuda_check; then cuda-gpu-available || exit 1; fi
+# if ! $skip_cuda_check; then cuda-gpu-available || exit 1; fi
 
 mkdir -p $dir/log
 

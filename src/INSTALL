@@ -1,4 +1,7 @@
+By Astropeak:
+On NRG5, run './build.sh' to make the project. This will run the make command on the grid.
 
+Original doc:
 These instructions are valid for UNIX-like systems (these steps have
 been run on various Linux distributions; Darwin; Cygwin).  For native Windows
 compilation, see ../windows/INSTALL.

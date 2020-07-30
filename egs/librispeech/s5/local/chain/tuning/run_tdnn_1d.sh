@@ -1,5 +1,6 @@
 #!/bin/bash
 set -e
+set -x
 
 # 1d is as 1c but a recipe based on the newer, more compact configs, and with
 #   various configuration changes; it also includes dropout (although I'm not
@@ -137,6 +138,7 @@ nnet3_affix=_cleaned
 affix=1d
 tree_affix=
 train_stage=-10
+# train_stage=0
 get_egs_stage=-10
 decode_iter=
 
@@ -156,13 +158,13 @@ echo "$0 $@"  # Print the command line for logging
 . ./path.sh
 . ./utils/parse_options.sh
 
-if ! cuda-compiled; then
-  cat <<EOF && exit 1
-This script is intended to be used with GPUs but you have not compiled Kaldi with CUDA
-If you want to use GPUs (and have them), go to src/, and configure and make on a machine
-where "nvcc" is installed.
-EOF
-fi
+# if ! cuda-compiled; then
+#   cat <<EOF && exit 1
+# This script is intended to be used with GPUs but you have not compiled Kaldi with CUDA
+# If you want to use GPUs (and have them), go to src/, and configure and make on a machine
+# where "nvcc" is installed.
+# EOF
+# fi
 
 # The iVector-extraction and feature-dumping parts are the same as the standard
 # nnet3 setup, and you can skip them by setting "--stage 11" if you have already
@@ -254,6 +256,7 @@ EOF
   steps/nnet3/xconfig_to_configs.py --xconfig-file $dir/configs/network.xconfig --config-dir $dir/configs/
 fi
 
+echo train_stage $train_stage, stage $stage
 if [ $stage -le 15 ]; then
   if [[ $(hostname -f) == *.clsp.jhu.edu ]] && [ ! -d $dir/egs/storage ]; then
     utils/create_split_dir.pl \

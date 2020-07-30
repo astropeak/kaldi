@@ -1,0 +1,3 @@
+
+# qsub -v PATH -v LD_LIBRARY_PATH -cwd -S /bin/bash -j y -sync y -o exp/chain_cleaned/tdnn_1d_sp/q/train.0.1.log -V -l gpu=true -l mem_free=8G   /nrg5/automotive/data/users/fuqiang_luo/source/kaldi/egs/librispeech/s5/exp/chain_cleaned/tdnn_1d_sp/q/train.0.1.sh
+qsub -v PATH -v LD_LIBRARY_PATH -cwd -S /bin/bash -j y -sync y -o exp/chain_cleaned/tdnn_1d_sp/q/train.0.1.log -V -l gpu=true,gpu.num=2  -l mem_free=8G /nrg5/automotive/data/users/fuqiang_luo/source/kaldi/egs/librispeech/s5/exp/chain_cleaned/tdnn_1d_sp/q/train.0.1.sh

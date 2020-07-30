@@ -27,9 +27,9 @@ numGaussUBM=400
 numLeavesSGMM=7000
 numGaussSGMM=9000
 
-feats_nj=10
-train_nj=30
-decode_nj=5
+feats_nj=20
+train_nj=60
+decode_nj=10
 
 echo ============================================================================
 echo "                Data & Lexicon & Language Preparation                     "
@@ -39,16 +39,16 @@ echo ===========================================================================
 timit=/mnt/matylda2/data/TIMIT/timit # @BUT
 timit=/home/fuqiang_luo/H/data/LDC/timit/TIMIT
 
-local/timit_data_prep.sh $timit || exit 1
+# local/timit_data_prep.sh $timit || exit 1
 
-local/timit_prepare_dict.sh
+# local/timit_prepare_dict.sh
 
-# Caution below: we remove optional silence by setting "--sil-prob 0.0",
-# in TIMIT the silence appears also as a word in the dictionary and is scored.
-utils/prepare_lang.sh --sil-prob 0.0 --position-dependent-phones false --num-sil-states 3 \
- data/local/dict "sil" data/local/lang_tmp data/lang
+# # Caution below: we remove optional silence by setting "--sil-prob 0.0",
+# # in TIMIT the silence appears also as a word in the dictionary and is scored.
+# utils/prepare_lang.sh --sil-prob 0.0 --position-dependent-phones false --num-sil-states 3 \
+#  data/local/dict "sil" data/local/lang_tmp data/lang
 
-local/timit_format_data.sh
+# local/timit_format_data.sh
 
 echo ============================================================================
 echo "         MFCC Feature Extration & CMVN for Training and Test set          "

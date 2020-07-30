@@ -1,0 +1,439 @@
+[fuqiang_luo@unv-fuqiang7 /nrg5/automotive/data/users/fuqiang_luo/source/kaldi/egs/timit/s5]                                                                                        > time ./run1.sh
+============================================================================
+                Data & Lexicon & Language Preparation
+============================================================================
+============================================================================
+         MFCC Feature Extration & CMVN for Training and Test set
+============================================================================
+steps/make_mfcc.sh --cmd queue.pl --mem 8G -q grid -V --nj 20 data/train exp/make_mfcc/train mfcc
+steps/make_mfcc.sh: moving data/train/feats.scp to data/train/.backup
+utils/validate_data_dir.sh: Successfully validated data-directory data/train
+steps/make_mfcc.sh: [info]: no segments file exists: assuming wav.scp indexed by utterance.
+Succeeded creating MFCC features for train
+steps/compute_cmvn_stats.sh data/train exp/make_mfcc/train mfcc
+Succeeded creating CMVN stats for train
+steps/make_mfcc.sh --cmd queue.pl --mem 8G -q grid -V --nj 20 data/dev exp/make_mfcc/dev mfcc
+steps/make_mfcc.sh: moving data/dev/feats.scp to data/dev/.backup
+utils/validate_data_dir.sh: Successfully validated data-directory data/dev
+steps/make_mfcc.sh: [info]: no segments file exists: assuming wav.scp indexed by utterance.
+Succeeded creating MFCC features for dev
+steps/compute_cmvn_stats.sh data/dev exp/make_mfcc/dev mfcc
+Succeeded creating CMVN stats for dev
+steps/make_mfcc.sh --cmd queue.pl --mem 8G -q grid -V --nj 20 data/test exp/make_mfcc/test mfcc
+steps/make_mfcc.sh: moving data/test/feats.scp to data/test/.backup
+utils/validate_data_dir.sh: Successfully validated data-directory data/test
+steps/make_mfcc.sh: [info]: no segments file exists: assuming wav.scp indexed by utterance.
+Succeeded creating MFCC features for test
+steps/compute_cmvn_stats.sh data/test exp/make_mfcc/test mfcc
+Succeeded creating CMVN stats for test
+============================================================================
+                     MonoPhone Training & Decoding
+============================================================================
+steps/train_mono.sh --nj 60 --cmd queue.pl --mem 8G -q grid -V data/train data/lang exp/mono
+steps/train_mono.sh: Initializing monophone system.
+steps/train_mono.sh: Compiling training graphs
+steps/train_mono.sh: Aligning data equally (pass 0)
+steps/train_mono.sh: Pass 1
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 2
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 3
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 4
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 5
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 6
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 7
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 8
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 9
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 10
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 11
+steps/train_mono.sh: Pass 12
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 13
+steps/train_mono.sh: Pass 14
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 15
+steps/train_mono.sh: Pass 16
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 17
+steps/train_mono.sh: Pass 18
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 19
+steps/train_mono.sh: Pass 20
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 21
+steps/train_mono.sh: Pass 22
+steps/train_mono.sh: Pass 23
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 24
+steps/train_mono.sh: Pass 25
+steps/train_mono.sh: Pass 26
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 27
+steps/train_mono.sh: Pass 28
+steps/train_mono.sh: Pass 29
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 30
+steps/train_mono.sh: Pass 31
+steps/train_mono.sh: Pass 32
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 33
+steps/train_mono.sh: Pass 34
+steps/train_mono.sh: Pass 35
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 36
+steps/train_mono.sh: Pass 37
+steps/train_mono.sh: Pass 38
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 39
+steps/diagnostic/analyze_alignments.sh --cmd queue.pl --mem 8G -q grid -V data/lang exp/mono
+steps/diagnostic/analyze_alignments.sh: see stats in exp/mono/log/analyze_alignments.log
+2 warnings in exp/mono/log/align.*.*.log
+exp/mono: nj=60 align prob=-99.15 over 3.12h [retry=0.0%, fail=0.0%] states=144 gauss=986
+steps/train_mono.sh: Done training monophone system in exp/mono
+tree-info exp/mono/tree
+tree-info exp/mono/tree
+fstdeterminizestar --use-log=true
+fsttablecompose data/lang_test_bg/L_disambig.fst data/lang_test_bg/G.fst
+fstminimizeencoded
+fstpushspecial
+fstisstochastic data/lang_test_bg/tmp/LG.fst
+-0.00841336 -0.00928521
+fstcomposecontext --context-size=1 --central-position=0 --read-disambig-syms=data/lang_test_bg/phones/disambig.int --write-disambig-syms=data/lang_test_bg/tmp/disambig_ilabels_1_0.int data/lang_test_bg/tmp/ilabels_1_0.29553 data/lang_test_bg/tmp/LG.fst
+fstisstochastic data/lang_test_bg/tmp/CLG_1_0.fst
+-0.00841336 -0.00928521
+make-h-transducer --disambig-syms-out=exp/mono/graph/disambig_tid.int --transition-scale=1.0 data/lang_test_bg/tmp/ilabels_1_0 exp/mono/tree exp/mono/final.mdl
+fstrmsymbols exp/mono/graph/disambig_tid.int
+fstminimizeencoded
+fsttablecompose exp/mono/graph/Ha.fst data/lang_test_bg/tmp/CLG_1_0.fst
+fstdeterminizestar --use-log=true
+fstrmepslocal
+fstisstochastic exp/mono/graph/HCLGa.fst
+0.000381709 -0.00951555
+add-self-loops --self-loop-scale=0.1 --reorder=true exp/mono/final.mdl exp/mono/graph/HCLGa.fst
+steps/decode.sh --nj 10 --cmd queue.pl --mem 8G exp/mono/graph data/dev exp/mono/decode_dev
+decode.sh: feature type is delta
+steps/diagnostic/analyze_lats.sh --cmd queue.pl --mem 8G exp/mono/graph exp/mono/decode_dev
+steps/diagnostic/analyze_lats.sh: see stats in exp/mono/decode_dev/log/analyze_alignments.log
+Overall, lattice depth (10,50,90-percentile)=(5,25,124) and mean=58.1
+steps/diagnostic/analyze_lats.sh: see stats in exp/mono/decode_dev/log/analyze_lattice_depth_stats.log
+steps/decode.sh --nj 10 --cmd queue.pl --mem 8G exp/mono/graph data/test exp/mono/decode_test
+decode.sh: feature type is delta
+steps/diagnostic/analyze_lats.sh --cmd queue.pl --mem 8G exp/mono/graph exp/mono/decode_test
+steps/diagnostic/analyze_lats.sh: see stats in exp/mono/decode_test/log/analyze_alignments.log
+Overall, lattice depth (10,50,90-percentile)=(5,27,138) and mean=84.0
+steps/diagnostic/analyze_lats.sh: see stats in exp/mono/decode_test/log/analyze_lattice_depth_stats.log
+============================================================================
+           tri1 : Deltas + Delta-Deltas Training & Decoding
+============================================================================
+steps/align_si.sh --boost-silence 1.25 --nj 60 --cmd queue.pl --mem 8G -q grid -V data/train data/lang exp/mono exp/mono_ali
+steps/align_si.sh: feature type is delta
+steps/align_si.sh: aligning data in data/train using model from exp/mono, putting alignments in exp/mono_ali
+steps/diagnostic/analyze_alignments.sh --cmd queue.pl --mem 8G -q grid -V data/lang exp/mono_ali
+steps/diagnostic/analyze_alignments.sh: see stats in exp/mono_ali/log/analyze_alignments.log
+steps/align_si.sh: done aligning data.
+steps/train_deltas.sh --cmd queue.pl --mem 8G -q grid -V 2500 15000 data/train data/lang exp/mono_ali exp/tri1
+steps/train_deltas.sh: accumulating tree stats
+steps/train_deltas.sh: getting questions for tree-building, via clustering
+steps/train_deltas.sh: building the tree
+steps/train_deltas.sh: converting alignments from exp/mono_ali to use current tree
+steps/train_deltas.sh: compiling graphs of transcripts
+steps/train_deltas.sh: training pass 1
+steps/train_deltas.sh: training pass 2
+steps/train_deltas.sh: training pass 3
+steps/train_deltas.sh: training pass 4
+steps/train_deltas.sh: training pass 5
+steps/train_deltas.sh: training pass 6
+steps/train_deltas.sh: training pass 7
+steps/train_deltas.sh: training pass 8
+steps/train_deltas.sh: training pass 9
+steps/train_deltas.sh: training pass 10
+steps/train_deltas.sh: aligning data
+steps/train_deltas.sh: training pass 11
+steps/train_deltas.sh: training pass 12
+steps/train_deltas.sh: training pass 13
+steps/train_deltas.sh: training pass 14
+steps/train_deltas.sh: training pass 15
+steps/train_deltas.sh: training pass 16
+steps/train_deltas.sh: training pass 17
+steps/train_deltas.sh: training pass 18
+steps/train_deltas.sh: training pass 19
+steps/train_deltas.sh: training pass 20
+steps/train_deltas.sh: aligning data
+steps/train_deltas.sh: training pass 21
+steps/train_deltas.sh: training pass 22
+steps/train_deltas.sh: training pass 23
+steps/train_deltas.sh: training pass 24
+steps/train_deltas.sh: training pass 25
+steps/train_deltas.sh: training pass 26
+steps/train_deltas.sh: training pass 27
+steps/train_deltas.sh: training pass 28
+steps/train_deltas.sh: training pass 29
+steps/train_deltas.sh: training pass 30
+steps/train_deltas.sh: aligning data
+steps/train_deltas.sh: training pass 31
+steps/train_deltas.sh: training pass 32
+steps/train_deltas.sh: training pass 33
+steps/train_deltas.sh: training pass 34
+steps/diagnostic/analyze_alignments.sh --cmd queue.pl --mem 8G -q grid -V data/lang exp/tri1
+steps/diagnostic/analyze_alignments.sh: see stats in exp/tri1/log/analyze_alignments.log
+43 warnings in exp/tri1/log/update.*.log
+1 warnings in exp/tri1/log/compile_questions.log
+65 warnings in exp/tri1/log/init_model.log
+exp/tri1: nj=60 align prob=-95.28 over 3.12h [retry=0.0%, fail=0.0%] states=1856 gauss=15030 tree-impr=5.41
+steps/train_deltas.sh: Done training system with delta+delta-delta features in exp/tri1
+tree-info exp/tri1/tree
+tree-info exp/tri1/tree
+fstcomposecontext --context-size=3 --central-position=1 --read-disambig-syms=data/lang_test_bg/phones/disambig.int --write-disambig-syms=data/lang_test_bg/tmp/disambig_ilabels_3_1.int data/lang_test_bg/tmp/ilabels_3_1.7537 data/lang_test_bg/tmp/LG.fst
+fstisstochastic data/lang_test_bg/tmp/CLG_3_1.fst
+0 -0.00928518
+make-h-transducer --disambig-syms-out=exp/tri1/graph/disambig_tid.int --transition-scale=1.0 data/lang_test_bg/tmp/ilabels_3_1 exp/tri1/tree exp/tri1/final.mdl
+fstrmsymbols exp/tri1/graph/disambig_tid.int
+fstminimizeencoded
+fsttablecompose exp/tri1/graph/Ha.fst data/lang_test_bg/tmp/CLG_3_1.fst
+fstrmepslocal
+fstdeterminizestar --use-log=true
+fstisstochastic exp/tri1/graph/HCLGa.fst
+0.000445813 -0.0175772
+HCLGa is not stochastic
+add-self-loops --self-loop-scale=0.1 --reorder=true exp/tri1/final.mdl exp/tri1/graph/HCLGa.fst
+steps/decode.sh --nj 10 --cmd queue.pl --mem 8G exp/tri1/graph data/dev exp/tri1/decode_dev
+decode.sh: feature type is delta
+steps/diagnostic/analyze_lats.sh --cmd queue.pl --mem 8G exp/tri1/graph exp/tri1/decode_dev
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri1/decode_dev/log/analyze_alignments.log
+Overall, lattice depth (10,50,90-percentile)=(3,12,43) and mean=19.5
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri1/decode_dev/log/analyze_lattice_depth_stats.log
+steps/decode.sh --nj 10 --cmd queue.pl --mem 8G exp/tri1/graph data/test exp/tri1/decode_test
+decode.sh: feature type is delta
+steps/diagnostic/analyze_lats.sh --cmd queue.pl --mem 8G exp/tri1/graph exp/tri1/decode_test
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri1/decode_test/log/analyze_alignments.log
+Overall, lattice depth (10,50,90-percentile)=(3,13,51) and mean=22.2
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri1/decode_test/log/analyze_lattice_depth_stats.log
+============================================================================
+                 tri2 : LDA + MLLT Training & Decoding
+============================================================================
+steps/align_si.sh --nj 60 --cmd queue.pl --mem 8G -q grid -V data/train data/lang exp/tri1 exp/tri1_ali
+steps/align_si.sh: feature type is delta
+steps/align_si.sh: aligning data in data/train using model from exp/tri1, putting alignments in exp/tri1_ali
+steps/diagnostic/analyze_alignments.sh --cmd queue.pl --mem 8G -q grid -V data/lang exp/tri1_ali
+steps/diagnostic/analyze_alignments.sh: see stats in exp/tri1_ali/log/analyze_alignments.log
+steps/align_si.sh: done aligning data.
+steps/train_lda_mllt.sh --cmd queue.pl --mem 8G -q grid -V --splice-opts --left-context=3 --right-context=3 2500 15000 data/train data/lang exp/tri1_ali exp/tri2
+steps/train_lda_mllt.sh: Accumulating LDA statistics.
+steps/train_lda_mllt.sh: Accumulating tree stats
+steps/train_lda_mllt.sh: Getting questions for tree clustering.
+steps/train_lda_mllt.sh: Building the tree
+steps/train_lda_mllt.sh: Initializing the model
+steps/train_lda_mllt.sh: Converting alignments from exp/tri1_ali to use current tree
+steps/train_lda_mllt.sh: Compiling graphs of transcripts
+Training pass 1
+Training pass 2
+steps/train_lda_mllt.sh: Estimating MLLT
+Training pass 3
+Training pass 4
+steps/train_lda_mllt.sh: Estimating MLLT
+Training pass 5
+Training pass 6
+steps/train_lda_mllt.sh: Estimating MLLT
+Training pass 7
+Training pass 8
+Training pass 9
+Training pass 10
+Aligning data
+Training pass 11
+Training pass 12
+steps/train_lda_mllt.sh: Estimating MLLT
+Training pass 13
+Training pass 14
+Training pass 15
+Training pass 16
+Training pass 17
+Training pass 18
+Training pass 19
+Training pass 20
+Aligning data
+Training pass 21
+Training pass 22
+Training pass 23
+Training pass 24
+Training pass 25
+
+Training pass 26
+Training pass 27
+Training pass 28
+Training pass 29
+Training pass 30
+Aligning data
+Training pass 31
+Training pass 32
+Training pass 33
+Training pass 34
+steps/diagnostic/analyze_alignments.sh --cmd queue.pl --mem 8G -q grid -V data/lang exp/tri2
+steps/diagnostic/analyze_alignments.sh: see stats in exp/tri2/log/analyze_alignments.log
+1 warnings in exp/tri2/log/compile_questions.log
+145 warnings in exp/tri2/log/update.*.log
+93 warnings in exp/tri2/log/init_model.log
+exp/tri2: nj=60 align prob=-47.77 over 3.12h [retry=0.0%, fail=0.0%] states=2024 gauss=15019 tree-impr=5.56 lda-sum=28.23 mllt:impr,logdet=1.60,2.21
+steps/train_lda_mllt.sh: Done training system with LDA+MLLT features in exp/tri2
+tree-info exp/tri2/tree
+tree-info exp/tri2/tree
+make-h-transducer --disambig-syms-out=exp/tri2/graph/disambig_tid.int --transition-scale=1.0 data/lang_test_bg/tmp/ilabels_3_1 exp/tri2/tree exp/tri2/final.mdl
+fstrmsymbols exp/tri2/graph/disambig_tid.int
+fsttablecompose exp/tri2/graph/Ha.fst data/lang_test_bg/tmp/CLG_3_1.fst
+fstminimizeencoded
+fstrmepslocal
+fstdeterminizestar --use-log=true
+fstisstochastic exp/tri2/graph/HCLGa.fst
+0.000462607 -0.0175772
+HCLGa is not stochastic
+add-self-loops --self-loop-scale=0.1 --reorder=true exp/tri2/final.mdl exp/tri2/graph/HCLGa.fst
+steps/decode.sh --nj 10 --cmd queue.pl --mem 8G exp/tri2/graph data/dev exp/tri2/decode_dev
+decode.sh: feature type is lda
+steps/diagnostic/analyze_lats.sh --cmd queue.pl --mem 8G exp/tri2/graph exp/tri2/decode_dev
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri2/decode_dev/log/analyze_alignments.log
+Overall, lattice depth (10,50,90-percentile)=(2,8,29) and mean=13.2
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri2/decode_dev/log/analyze_lattice_depth_stats.log
+steps/decode.sh --nj 10 --cmd queue.pl --mem 8G exp/tri2/graph data/test exp/tri2/decode_test
+decode.sh: feature type is lda
+steps/diagnostic/analyze_lats.sh --cmd queue.pl --mem 8G exp/tri2/graph exp/tri2/decode_test
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri2/decode_test/log/analyze_alignments.log
+Overall, lattice depth (10,50,90-percentile)=(2,9,33) and mean=14.6
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri2/decode_test/log/analyze_lattice_depth_stats.log
+============================================================================
+              tri3 : LDA + MLLT + SAT Training & Decoding
+============================================================================
+steps/align_si.sh --nj 60 --cmd queue.pl --mem 8G -q grid -V --use-graphs true data/train data/lang exp/tri2 exp/tri2_ali
+steps/align_si.sh: feature type is lda
+steps/align_si.sh: aligning data in data/train using model from exp/tri2, putting alignments in exp/tri2_ali
+steps/diagnostic/analyze_alignments.sh --cmd queue.pl --mem 8G -q grid -V data/lang exp/tri2_ali
+steps/diagnostic/analyze_alignments.sh: see stats in exp/tri2_ali/log/analyze_alignments.log
+steps/align_si.sh: done aligning data.
+steps/train_sat.sh --cmd queue.pl --mem 8G -q grid -V 2500 15000 data/train data/lang exp/tri2_ali exp/tri3
+steps/train_sat.sh: feature type is lda
+steps/train_sat.sh: obtaining initial fMLLR transforms since not present in exp/tri2_ali
+steps/train_sat.sh: Accumulating tree stats
+steps/train_sat.sh: Getting questions for tree clustering.
+steps/train_sat.sh: Building the tree
+steps/train_sat.sh: Initializing the model
+steps/train_sat.sh: Converting alignments from exp/tri2_ali to use current tree
+steps/train_sat.sh: Compiling graphs of transcripts
+Pass 1
+Pass 2
+Estimating fMLLR transforms
+Pass 3
+Pass 4
+Estimating fMLLR transforms
+Pass 5
+Pass 6
+Estimating fMLLR transforms
+Pass 7
+Pass 8
+Pass 9
+Pass 10
+Aligning data
+Pass 11
+Pass 12
+Estimating fMLLR transforms
+Pass 13
+Pass 14
+Pass 15
+Pass 16
+Pass 17
+Pass 18
+Pass 19
+Pass 20
+Aligning data
+Pass 21
+Pass 22
+Pass 23
+Pass 24
+Pass 25
+Pass 26
+Pass 27
+Pass 28
+Pass 29
+Pass 30
+Aligning data
+
+
+Pass 31
+Pass 32
+Pass 33
+Pass 34
+steps/diagnostic/analyze_alignments.sh --cmd queue.pl --mem 8G -q grid -V data/lang exp/tri3
+steps/diagnostic/analyze_alignments.sh: see stats in exp/tri3/log/analyze_alignments.log
+40 warnings in exp/tri3/log/init_model.log
+1 warnings in exp/tri3/log/compile_questions.log
+11 warnings in exp/tri3/log/update.*.log
+steps/train_sat.sh: Likelihood evolution:
+-50.13 -49.2614 -49.0619 -48.8707 -48.2108 -47.5063 -47.0201 -46.7336 -46.4987 -45.9695 -45.6978 -45.3739 -45.1896 -45.0506 -44.9234 -44.8098 -44.703 -44.5984 -44.4956 -44.3339 -44.1961 -44.107 -44.02 -43.9364 -43.8582 -43.7831 -43.7088 -43.6361 -43.5644 -43.4677 -43.394 -43.3681 -43.3514 -43.3395
+exp/tri3: nj=60 align prob=-46.94 over 3.12h [retry=0.0%, fail=0.0%] states=1960 gauss=15011 fmllr-impr=4.02 over 2.79h tree-impr=8.76
+steps/train_sat.sh: done training SAT system in exp/tri3
+tree-info exp/tri3/tree
+tree-info exp/tri3/tree
+make-h-transducer --disambig-syms-out=exp/tri3/graph/disambig_tid.int --transition-scale=1.0 data/lang_test_bg/tmp/ilabels_3_1 exp/tri3/tree exp/tri3/final.mdl
+fstrmsymbols exp/tri3/graph/disambig_tid.int
+fstdeterminizestar --use-log=true
+fstrmepslocal
+fstminimizeencoded
+fsttablecompose exp/tri3/graph/Ha.fst data/lang_test_bg/tmp/CLG_3_1.fst
+fstisstochastic exp/tri3/graph/HCLGa.fst
+0.000470475 -0.0175772
+HCLGa is not stochastic
+add-self-loops --self-loop-scale=0.1 --reorder=true exp/tri3/final.mdl exp/tri3/graph/HCLGa.fst
+steps/decode_fmllr.sh --nj 10 --cmd queue.pl --mem 8G exp/tri3/graph data/dev exp/tri3/decode_dev
+steps/decode.sh --scoring-opts  --num-threads 1 --skip-scoring false --acwt 0.083333 --nj 10 --cmd queue.pl --mem 8G --beam 10.0 --model exp/tri3/final.alimdl --max-active 2000 exp/tri3/graph data/dev exp/tri3/decode_dev.si
+decode.sh: feature type is lda
+steps/diagnostic/analyze_lats.sh --cmd queue.pl --mem 8G exp/tri3/graph exp/tri3/decode_dev.si
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri3/decode_dev.si/log/analyze_alignments.log
+Overall, lattice depth (10,50,90-percentile)=(2,9,33) and mean=15.3
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri3/decode_dev.si/log/analyze_lattice_depth_stats.log
+steps/decode_fmllr.sh: feature type is lda
+steps/decode_fmllr.sh: getting first-pass fMLLR transforms.
+steps/decode_fmllr.sh: doing main lattice generation phase
+steps/decode_fmllr.sh: estimating fMLLR transforms a second time.
+steps/decode_fmllr.sh: doing a final pass of acoustic rescoring.
+steps/diagnostic/analyze_lats.sh --cmd queue.pl --mem 8G exp/tri3/graph exp/tri3/decode_dev
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri3/decode_dev/log/analyze_alignments.log
+Overall, lattice depth (10,50,90-percentile)=(1,5,16) and mean=7.6
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri3/decode_dev/log/analyze_lattice_depth_stats.log
+steps/decode_fmllr.sh --nj 10 --cmd queue.pl --mem 8G exp/tri3/graph data/test exp/tri3/decode_test
+steps/decode.sh --scoring-opts  --num-threads 1 --skip-scoring false --acwt 0.083333 --nj 10 --cmd queue.pl --mem 8G --beam 10.0 --model exp/tri3/final.alimdl --max-active 2000 exp/tri3/graph data/test exp/tri3/decode_test.si
+decode.sh: feature type is lda
+steps/diagnostic/analyze_lats.sh --cmd queue.pl --mem 8G exp/tri3/graph exp/tri3/decode_test.si
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri3/decode_test.si/log/analyze_alignments.log
+Overall, lattice depth (10,50,90-percentile)=(2,10,35) and mean=16.0
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri3/decode_test.si/log/analyze_lattice_depth_stats.log
+steps/decode_fmllr.sh: feature type is lda
+steps/decode_fmllr.sh: getting first-pass fMLLR transforms.
+steps/decode_fmllr.sh: doing main lattice generation phase
+steps/decode_fmllr.sh: estimating fMLLR transforms a second time.
+steps/decode_fmllr.sh: doing a final pass of acoustic rescoring.
+steps/diagnostic/analyze_lats.sh --cmd queue.pl --mem 8G exp/tri3/graph exp/tri3/decode_test
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri3/decode_test/log/analyze_alignments.log
+Overall, lattice depth (10,50,90-percentile)=(1,5,18) and mean=8.3
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri3/decode_test/log/analyze_lattice_depth_stats.log
+============================================================================
+                        SGMM2 Training & Decoding
+============================================================================
+steps/align_fmllr.sh --nj 60 --cmd queue.pl --mem 8G -q grid -V data/train data/lang exp/tri3 exp/tri3_ali
+steps/align_fmllr.sh: feature type is lda
+steps/align_fmllr.sh: compiling training graphs
+steps/align_fmllr.sh: aligning data in data/train using exp/tri3/final.alimdl and speaker-independent features.
+steps/align_fmllr.sh: computing fMLLR transforms
+steps/align_fmllr.sh: doing final alignment.
+steps/align_fmllr.sh: done aligning data.
+steps/diagnostic/analyze_alignments.sh --cmd queue.pl --mem 8G -q grid -V data/lang exp/tri3_ali
+steps/diagnostic/analyze_alignments.sh: see stats in exp/tri3_ali/log/analyze_alignments.log
+187.366u 301.011s 3:40:01.62 3.6%       0+0k 1116024+280568io 113pf+0w
+[fuqiang_luo@unv-fuqiang7 /nrg5/automotive/data/users/fuqiang_luo/source/kaldi/egs/timit/s5]                                                                                        >
+[fuqiang_luo@unv-fuqiang7 /nrg5/automotive/data/users/fuqiang_luo/source/kaldi/egs/timit/s5]                                                                                        >
+[fuqiang_luo@unv-fuqiang7 /nrg5/automotive/data/users/fuqiang_luo/source/kaldi/egs/timit/s5]                                                                                        >
+[fuqiang_luo@unv-fuqiang7 /nrg5/automotive/data/users/fuqiang_luo/source/kaldi/egs/timit/s5]                                                                                        >

@@ -1,0 +1,497 @@
+Epoch: 3.08/4.0 (76.9% complete)    lr: 0.000357
+2019-09-07 14:19:40,421 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 447/520    Epoch: 3.09/4.0 (77.2% complete)    lr: 0.000355
+2019-09-07 14:29:15,354 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 448/520    Epoch: 3.10/4.0 (77.5% complete)    lr: 0.000353
+2019-09-07 14:38:56,321 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 449/520    Epoch: 3.11/4.0 (77.8% complete)    lr: 0.000350
+2019-09-07 14:48:19,570 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 450/520    Epoch: 3.12/4.0 (78.1% complete)    lr: 0.000348
+2019-09-07 14:57:48,439 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 451/520    Epoch: 3.13/4.0 (78.3% complete)    lr: 0.000346
+2019-09-07 15:07:21,246 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 452/520    Epoch: 3.15/4.0 (78.6% complete)    lr: 0.000343
+2019-09-07 15:16:55,696 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 453/520    Epoch: 3.16/4.0 (78.9% complete)    lr: 0.000341
+2019-09-07 15:26:24,635 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 454/520    Epoch: 3.17/4.0 (79.2% complete)    lr: 0.000339
+2019-09-07 15:36:00,527 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 455/520    Epoch: 3.18/4.0 (79.5% complete)    lr: 0.000337
+2019-09-07 15:45:30,100 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 456/520    Epoch: 3.19/4.0 (79.8% complete)    lr: 0.000335
+2019-09-07 15:55:02,573 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 457/520    Epoch: 3.20/4.0 (80.0% complete)    lr: 0.000332
+2019-09-07 16:04:26,310 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 458/520    Epoch: 3.21/4.0 (80.3% complete)    lr: 0.000330
+2019-09-07 16:13:59,879 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 459/520    Epoch: 3.22/4.0 (80.6% complete)    lr: 0.000328
+2019-09-07 16:23:30,921 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 460/520    Epoch: 3.24/4.0 (80.9% complete)    lr: 0.000326
+2019-09-07 16:33:32,018 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 461/520    Epoch: 3.25/4.0 (81.2% complete)    lr: 0.000347
+2019-09-07 16:42:59,361 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 462/520    Epoch: 3.26/4.0 (81.5% complete)    lr: 0.000345
+2019-09-07 16:52:40,819 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 463/520    Epoch: 3.27/4.0 (81.8% complete)    lr: 0.000342
+2019-09-07 17:02:12,672 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 464/520    Epoch: 3.28/4.0 (82.1% complete)    lr: 0.000340
+2019-09-07 17:11:56,654 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 465/520    Epoch: 3.30/4.0 (82.4% complete)    lr: 0.000338
+2019-09-07 17:21:26,016 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 466/520    Epoch: 3.31/4.0 (82.7% complete)    lr: 0.000335
+2019-09-07 17:31:01,782 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 467/520    Epoch: 3.32/4.0 (83.0% complete)    lr: 0.000333
+2019-09-07 17:40:28,043 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 468/520    Epoch: 3.33/4.0 (83.3% complete)    lr: 0.000331
+2019-09-07 17:50:07,603 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 469/520    Epoch: 3.34/4.0 (83.6% complete)    lr: 0.000328
+2019-09-07 17:59:41,574 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 470/520    Epoch: 3.36/4.0 (83.9% complete)    lr: 0.000326
+2019-09-07 18:09:11,257 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 471/520    Epoch: 3.37/4.0 (84.2% complete)    lr: 0.000324
+2019-09-07 18:18:40,280 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 472/520    Epoch: 3.38/4.0 (84.5% complete)    lr: 0.000321
+2019-09-07 18:28:20,861 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 473/520    Epoch: 3.39/4.0 (84.8% complete)    lr: 0.000319
+2019-09-07 18:37:52,191 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 474/520    Epoch: 3.40/4.0 (85.1% complete)    lr: 0.000317
+2019-09-07 18:47:28,429 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 475/520    Epoch: 3.42/4.0 (85.4% complete)    lr: 0.000315
+2019-09-07 18:56:59,074 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 476/520    Epoch: 3.43/4.0 (85.7% complete)    lr: 0.000313
+2019-09-07 19:06:36,079 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 477/520    Epoch: 3.44/4.0 (86.0% complete)    lr: 0.000310
+2019-09-07 19:16:06,587 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 478/520    Epoch: 3.45/4.0 (86.3% complete)    lr: 0.000308
+2019-09-07 19:25:41,016 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 479/520    Epoch: 3.46/4.0 (86.6% complete)    lr: 0.000306
+2019-09-07 19:35:34,292 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 480/520    Epoch: 3.48/4.0 (86.9% complete)    lr: 0.000304
+2019-09-07 19:45:35,516 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 481/520    Epoch: 3.49/4.0 (87.2% complete)    lr: 0.000302
+2019-09-07 19:55:05,976 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 482/520    Epoch: 3.50/4.0 (87.5% complete)    lr: 0.000300
+2019-09-07 20:04:54,231 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 483/520    Epoch: 3.51/4.0 (87.8% complete)    lr: 0.000298
+2019-09-07 20:14:28,879 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 484/520    Epoch: 3.53/4.0 (88.1% complete)    lr: 0.000296
+2019-09-07 20:24:03,322 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 485/520    Epoch: 3.54/4.0 (88.4% complete)    lr: 0.000294
+2019-09-07 20:33:34,335 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 486/520    Epoch: 3.55/4.0 (88.7% complete)    lr: 0.000292
+2019-09-07 20:43:16,658 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 487/520    Epoch: 3.56/4.0 (89.0% complete)    lr: 0.000290
+2019-09-07 20:52:54,500 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 488/520    Epoch: 3.57/4.0 (89.3% complete)    lr: 0.000288
+2019-09-07 21:02:33,048 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 489/520    Epoch: 3.59/4.0 (89.6% complete)    lr: 0.000286
+2019-09-07 21:11:57,219 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 490/520    Epoch: 3.60/4.0 (90.0% complete)    lr: 0.000284
+2019-09-07 21:21:43,379 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 491/520    Epoch: 3.61/4.0 (90.3% complete)    lr: 0.000282
+2019-09-07 21:31:19,532 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 492/520    Epoch: 3.62/4.0 (90.6% complete)    lr: 0.000280
+2019-09-07 21:40:59,739 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 493/520    Epoch: 3.63/4.0 (90.9% complete)    lr: 0.000278
+2019-09-07 21:50:30,620 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 494/520    Epoch: 3.65/4.0 (91.2% complete)    lr: 0.000276
+2019-09-07 22:00:09,426 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 495/520    Epoch: 3.66/4.0 (91.5% complete)    lr: 0.000274
+2019-09-07 22:09:41,979 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 496/520    Epoch: 3.67/4.0 (91.8% complete)    lr: 0.000272
+2019-09-07 22:19:30,550 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 497/520    Epoch: 3.68/4.0 (92.1% complete)    lr: 0.000270
+2019-09-07 22:28:58,332 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 498/520    Epoch: 3.69/4.0 (92.4% complete)    lr: 0.000268
+2019-09-07 22:38:33,420 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 499/520    Epoch: 3.71/4.0 (92.7% complete)    lr: 0.000266
+2019-09-07 22:48:11,437 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 500/520    Epoch: 3.72/4.0 (93.0% complete)    lr: 0.000264
+2019-09-07 22:58:08,808 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 501/520    Epoch: 3.73/4.0 (93.3% complete)    lr: 0.000280
+2019-09-07 23:07:44,597 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 502/520    Epoch: 3.74/4.0 (93.6% complete)    lr: 0.000278
+2019-09-07 23:17:24,650 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 503/520    Epoch: 3.76/4.0 (93.9% complete)    lr: 0.000276
+2019-09-07 23:26:57,335 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 504/520    Epoch: 3.77/4.0 (94.2% complete)    lr: 0.000274
+2019-09-07 23:36:32,342 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 505/520    Epoch: 3.78/4.0 (94.6% complete)    lr: 0.000272
+2019-09-07 23:46:09,043 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 506/520    Epoch: 3.80/4.0 (94.9% complete)    lr: 0.000270
+2019-09-07 23:55:47,344 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 507/520    Epoch: 3.81/4.0 (95.2% complete)    lr: 0.000268
+2019-09-08 00:05:24,854 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 508/520    Epoch: 3.82/4.0 (95.5% complete)    lr: 0.000266
+2019-09-08 00:15:00,980 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 509/520    Epoch: 3.83/4.0 (95.9% complete)    lr: 0.000264
+2019-09-08 00:24:34,151 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 510/520    Epoch: 3.85/4.0 (96.2% complete)    lr: 0.000262
+2019-09-08 00:34:07,256 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 511/520    Epoch: 3.86/4.0 (96.5% complete)    lr: 0.000260
+2019-09-08 00:43:40,449 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 512/520    Epoch: 3.87/4.0 (96.8% complete)    lr: 0.000258
+2019-09-08 00:53:20,817 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 513/520    Epoch: 3.89/4.0 (97.2% complete)    lr: 0.000256
+2019-09-08 01:02:52,351 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 514/520    Epoch: 3.90/4.0 (97.5% complete)    lr: 0.000254
+2019-09-08 01:12:31,975 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 515/520    Epoch: 3.91/4.0 (97.8% complete)    lr: 0.000252
+2019-09-08 01:22:10,661 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 516/520    Epoch: 3.92/4.0 (98.1% complete)    lr: 0.000251
+2019-09-08 01:31:57,179 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 517/520    Epoch: 3.94/4.0 (98.4% complete)    lr: 0.000249
+2019-09-08 01:41:32,168 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 518/520    Epoch: 3.95/4.0 (98.8% complete)    lr: 0.000247
+2019-09-08 01:51:17,066 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 519/520    Epoch: 3.96/4.0 (99.1% complete)    lr: 0.000245
+2019-09-08 02:00:48,361 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 520/520    Epoch: 3.98/4.0 (99.4% complete)    lr: 0.000240
+2019-09-08 02:10:57,636 [steps/nnet3/chain/train.py:563 - train - INFO ] Doing final combination to produce final.mdl
+2019-09-08 02:10:57,641 [steps/libs/nnet3/train/chain_objf/acoustic_model.py:570 - combine_models - INFO ] Combining set([512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 483, 484, 485, 486, 487, 488, 489, 490, 491, 492, 493, 494, 495, 496, 497, 498, 499, 500, 501, 502, 503, 504, 505, 506, 507, 508, 509, 510, 511]) models.
+2019-09-08 02:13:57,340 [steps/nnet3/chain/train.py:592 - train - INFO ] Cleaning up the experiment directory exp/chain_cleaned/tdnn_1d_sp
+steps/nnet2/remove_egs.sh: Finished deleting examples in exp/chain_cleaned/tdnn_1d_sp/egs
+exp/chain_cleaned/tdnn_1d_sp: num-iters=521 nj=3..16 num-params=20.7M dim=40+100->6048 combine=-0.036->-0.036 (over 3) xent:train/valid[346,520]=(-0.916,-0.671/-0.912,-0.676) logprob:train/valid[346,520]=(-0.060,-0.039/-0.061,-0.045)
++ graph_dir=exp/chain_cleaned/tdnn_1d_sp/graph_tgsmall
++ '[' 15 -le 16 ']'
++ utils/mkgraph.sh --self-loop-scale 1.0 --remove-oov data/lang_test_tgsmall exp/chain_cleaned/tdnn_1d_sp exp/chain_cleaned/tdnn_1d_sp/graph_tgsmall
+tree-info exp/chain_cleaned/tdnn_1d_sp/tree
+tree-info exp/chain_cleaned/tdnn_1d_sp/tree
+fstcomposecontext --context-size=2 --central-position=1 --read-disambig-syms=data/lang_test_tgsmall/phones/disambig.int --write-disambig-syms=data/lang_test_tgsmall/tmp/disambig_ilabels_2_1.int data/lang_test_tgsmall/tmp/ilabels_2_1.23715 data/lang_test_tgsmall/tmp/LG.fst
+fstisstochastic data/lang_test_tgsmall/tmp/CLG_2_1.fst
+-0.0450242 -0.0457828
+[info]: CLG not stochastic.
+make-h-transducer --disambig-syms-out=exp/chain_cleaned/tdnn_1d_sp/graph_tgsmall/disambig_tid.int --transition-scale=1.0 data/lang_test_tgsmall/tmp/ilabels_2_1 exp/chain_cleaned/tdnn_1d_sp/tree exp/chain_cleaned/tdnn_1d_sp/final.mdl
+fstminimizeencoded
+fstrmepslocal
+fstdeterminizestar --use-log=true
+fstrmsymbols exp/chain_cleaned/tdnn_1d_sp/graph_tgsmall/disambig_tid.int
+fsttablecompose exp/chain_cleaned/tdnn_1d_sp/graph_tgsmall/Ha.fst 'fstrmsymbols --remove-arcs=true --apply-to-output=true data/lang_test_tgsmall/oov.int data/lang_test_tgsmall/tmp/CLG_2_1.fst|'
+fstrmsymbols --remove-arcs=true --apply-to-output=true data/lang_test_tgsmall/oov.int data/lang_test_tgsmall/tmp/CLG_2_1.fst
+fstisstochastic exp/chain_cleaned/tdnn_1d_sp/graph_tgsmall/HCLGa.fst
+2.85449 -0.205483
+HCLGa is not stochastic
+add-self-loops --self-loop-scale=1.0 --reorder=true exp/chain_cleaned/tdnn_1d_sp/final.mdl exp/chain_cleaned/tdnn_1d_sp/graph_tgsmall/HCLGa.fst
+fstisstochastic exp/chain_cleaned/tdnn_1d_sp/graph_tgsmall/HCLG.fst
+2.50293 -0.124674
+[info]: final HCLG is not stochastic.
++ fstconvert --fst_type=const
++ fstrmsymbols --apply-to-output=true --remove-arcs=true 'echo 3|' exp/chain_cleaned/tdnn_1d_sp/graph_tgsmall/HCLG.fst -
+fstrmsymbols --apply-to-output=true --remove-arcs=true 'echo 3|' exp/chain_cleaned/tdnn_1d_sp/graph_tgsmall/HCLG.fst -
++ mv exp/chain_cleaned/tdnn_1d_sp/graph_tgsmall/temp.fst exp/chain_cleaned/tdnn_1d_sp/graph_tgsmall/HCLG.fst
++ iter_opts=
++ '[' '!' -z ']'
++ '[' 15 -le 17 ']'
++ rm exp/chain_cleaned/tdnn_1d_sp/.error
++ true
++ for decode_set in test_clean test_other dev_clean dev_other
++ for decode_set in test_clean test_other dev_clean dev_other
++ for decode_set in test_clean test_other dev_clean dev_other
++ for decode_set in test_clean test_other dev_clean dev_other
++ steps/nnet3/decode.sh --acwt 1.0 --post-decode-acwt 10.0 --nj 50 --cmd 'queue.pl --mem 8G -V' --online-ivector-dir exp/nnet3_cleaned/ivectors_test_other_hires exp/chain_cleaned/tdnn_1d_sp/graph_tgsmall data/test_other_hires exp/chain_cleaned/tdnn_1d_sp/decode_test_other_tgsmall
++ wait
++ steps/nnet3/decode.sh --acwt 1.0 --post-decode-acwt 10.0 --nj 50 --cmd 'queue.pl --mem 8G -V' --online-ivector-dir exp/nnet3_cleaned/ivectors_test_clean_hires exp/chain_cleaned/tdnn_1d_sp/graph_tgsmall data/test_clean_hires exp/chain_cleaned/tdnn_1d_sp/decode_test_clean_tgsmall
++ steps/nnet3/decode.sh --acwt 1.0 --post-decode-acwt 10.0 --nj 50 --cmd 'queue.pl --mem 8G -V' --online-ivector-dir exp/nnet3_cleaned/ivectors_dev_clean_hires exp/chain_cleaned/tdnn_1d_sp/graph_tgsmall data/dev_clean_hires exp/chain_cleaned/tdnn_1d_sp/decode_dev_clean_tgsmall
++ steps/nnet3/decode.sh --acwt 1.0 --post-decode-acwt 10.0 --nj 50 --cmd 'queue.pl --mem 8G -V' --online-ivector-dir exp/nnet3_cleaned/ivectors_dev_other_hires exp/chain_cleaned/tdnn_1d_sp/graph_tgsmall data/dev_other_hires exp/chain_cleaned/tdnn_1d_sp/decode_dev_other_tgsmall
+steps/nnet3/decode.sh --acwt 1.0 --post-decode-acwt 10.0 --nj 50 --cmd queue.pl --mem 8G -V --online-ivector-dir exp/nnet3_cleaned/ivectors_dev_clean_hires exp/chain_cleaned/tdnn_1d_sp/graph_tgsmall data/dev_clean_hires exp/chain_cleaned/tdnn_1d_sp/decode_dev_clean_tgsmall
+steps/nnet3/decode.sh --acwt 1.0 --post-decode-acwt 10.0 --nj 50 --cmd queue.pl --mem 8G -V --online-ivector-dir exp/nnet3_cleaned/ivectors_test_other_hires exp/chain_cleaned/tdnn_1d_sp/graph_tgsmall data/test_other_hires exp/chain_cleaned/tdnn_1d_sp/decode_test_other_tgsmall
+steps/nnet3/decode.sh --acwt 1.0 --post-decode-acwt 10.0 --nj 50 --cmd queue.pl --mem 8G -V --online-ivector-dir exp/nnet3_cleaned/ivectors_test_clean_hires exp/chain_cleaned/tdnn_1d_sp/graph_tgsmall data/test_clean_hires exp/chain_cleaned/tdnn_1d_sp/decode_test_clean_tgsmall
+steps/nnet3/decode.sh --acwt 1.0 --post-decode-acwt 10.0 --nj 50 --cmd queue.pl --mem 8G -V --online-ivector-dir exp/nnet3_cleaned/ivectors_dev_other_hires exp/chain_cleaned/tdnn_1d_sp/graph_tgsmall data/dev_other_hires exp/chain_cleaned/tdnn_1d_sp/decode_dev_other_tgsmall
+steps/nnet3/decode.sh: feature type is raw
+steps/nnet3/decode.sh: feature type is raw
+steps/nnet3/decode.sh: feature type is raw
+steps/nnet3/decode.sh: feature type is raw
+steps/diagnostic/analyze_lats.sh --cmd queue.pl --mem 8G -V --iter final exp/chain_cleaned/tdnn_1d_sp/graph_tgsmall exp/chain_cleaned/tdnn_1d_sp/decode_dev_other_tgsmall
+steps/diagnostic/analyze_lats.sh --cmd queue.pl --mem 8G -V --iter final exp/chain_cleaned/tdnn_1d_sp/graph_tgsmall exp/chain_cleaned/tdnn_1d_sp/decode_test_clean_tgsmall
+steps/diagnostic/analyze_lats.sh --cmd queue.pl --mem 8G -V --iter final exp/chain_cleaned/tdnn_1d_sp/graph_tgsmall exp/chain_cleaned/tdnn_1d_sp/decode_test_other_tgsmall
+steps/diagnostic/analyze_lats.sh: see stats in exp/chain_cleaned/tdnn_1d_sp/decode_dev_other_tgsmall/log/analyze_alignments.log
+steps/diagnostic/analyze_lats.sh: see stats in exp/chain_cleaned/tdnn_1d_sp/decode_test_clean_tgsmall/log/analyze_alignments.log
+steps/diagnostic/analyze_lats.sh --cmd queue.pl --mem 8G -V --iter final exp/chain_cleaned/tdnn_1d_sp/graph_tgsmall exp/chain_cleaned/tdnn_1d_sp/decode_dev_clean_tgsmall
+steps/diagnostic/analyze_lats.sh: see stats in exp/chain_cleaned/tdnn_1d_sp/decode_test_other_tgsmall/log/analyze_alignments.log
+Overall, lattice depth (10,50,90-percentile)=(1,4,25) and mean=11.8
+steps/diagnostic/analyze_lats.sh: see stats in exp/chain_cleaned/tdnn_1d_sp/decode_dev_other_tgsmall/log/analyze_lattice_depth_stats.log
+Overall, lattice depth (10,50,90-percentile)=(1,2,7) and mean=4.1
+steps/diagnostic/analyze_lats.sh: see stats in exp/chain_cleaned/tdnn_1d_sp/decode_test_clean_tgsmall/log/analyze_lattice_depth_stats.log
+score best paths
+score best paths
+steps/diagnostic/analyze_lats.sh: see stats in exp/chain_cleaned/tdnn_1d_sp/decode_dev_clean_tgsmall/log/analyze_alignments.log
+Overall, lattice depth (10,50,90-percentile)=(1,4,25) and mean=11.8
+steps/diagnostic/analyze_lats.sh: see stats in exp/chain_cleaned/tdnn_1d_sp/decode_test_other_tgsmall/log/analyze_lattice_depth_stats.log
+score best paths
+Overall, lattice depth (10,50,90-percentile)=(1,2,7) and mean=3.8
+steps/diagnostic/analyze_lats.sh: see stats in exp/chain_cleaned/tdnn_1d_sp/decode_dev_clean_tgsmall/log/analyze_lattice_depth_stats.log
+score best paths
+score confidence and timing with sclite
+Decoding done.
++ steps/lmrescore.sh --cmd 'queue.pl --mem 8G -V' --self-loop-scale 1.0 data/lang_test_tgsmall data/lang_test_tgmed data/test_clean_hires exp/chain_cleaned/tdnn_1d_sp/decode_test_clean_tgsmall exp/chain_cleaned/tdnn_1d_sp/decode_test_clean_tgmed
+steps/lmrescore.sh --cmd queue.pl --mem 8G -V --self-loop-scale 1.0 data/lang_test_tgsmall data/lang_test_tgmed data/test_clean_hires exp/chain_cleaned/tdnn_1d_sp/decode_test_clean_tgsmall exp/chain_cleaned/tdnn_1d_sp/decode_test_clean_tgmed
+fstdeterminizestar
+fstrmsymbols data/lang_test_tgmed/phones/disambig.int
+score confidence and timing with sclite
+Decoding done.
++ steps/lmrescore.sh --cmd 'queue.pl --mem 8G -V' --self-loop-scale 1.0 data/lang_test_tgsmall data/lang_test_tgmed data/dev_other_hires exp/chain_cleaned/tdnn_1d_sp/decode_dev_other_tgsmall exp/chain_cleaned/tdnn_1d_sp/decode_dev_other_tgmed
+steps/lmrescore.sh --cmd queue.pl --mem 8G -V --self-loop-scale 1.0 data/lang_test_tgsmall data/lang_test_tgmed data/dev_other_hires exp/chain_cleaned/tdnn_1d_sp/decode_dev_other_tgsmall exp/chain_cleaned/tdnn_1d_sp/decode_dev_other_tgmed
+fstrmsymbols data/lang_test_tgmed/phones/disambig.int
+fstdeterminizestar
+score confidence and timing with sclite
+Decoding done.
++ steps/lmrescore.sh --cmd 'queue.pl --mem 8G -V' --self-loop-scale 1.0 data/lang_test_tgsmall data/lang_test_tgmed data/test_other_hires exp/chain_cleaned/tdnn_1d_sp/decode_test_other_tgsmall exp/chain_cleaned/tdnn_1d_sp/decode_test_other_tgmed
+steps/lmrescore.sh --cmd queue.pl --mem 8G -V --self-loop-scale 1.0 data/lang_test_tgsmall data/lang_test_tgmed data/test_other_hires exp/chain_cleaned/tdnn_1d_sp/decode_test_other_tgsmall exp/chain_cleaned/tdnn_1d_sp/decode_test_other_tgmed
+score confidence and timing with sclite
+Decoding done.
++ steps/lmrescore.sh --cmd 'queue.pl --mem 8G -V' --self-loop-scale 1.0 data/lang_test_tgsmall data/lang_test_tgmed data/dev_clean_hires exp/chain_cleaned/tdnn_1d_sp/decode_dev_clean_tgsmall exp/chain_cleaned/tdnn_1d_sp/decode_dev_clean_tgmed
+steps/lmrescore.sh --cmd queue.pl --mem 8G -V --self-loop-scale 1.0 data/lang_test_tgsmall data/lang_test_tgmed data/dev_clean_hires exp/chain_cleaned/tdnn_1d_sp/decode_dev_clean_tgsmall exp/chain_cleaned/tdnn_1d_sp/decode_dev_clean_tgmed
+fstrmsymbols data/lang_test_tgmed/phones/disambig.int
+fstdeterminizestar
+fstrmsymbols data/lang_test_tgmed/phones/disambig.int
+fstdeterminizestar
++ steps/lmrescore_const_arpa.sh --cmd 'queue.pl --mem 8G -V' data/lang_test_tgsmall data/lang_test_tglarge data/test_clean_hires exp/chain_cleaned/tdnn_1d_sp/decode_test_clean_tgsmall exp/chain_cleaned/tdnn_1d_sp/decode_test_clean_tglarge
+steps/lmrescore_const_arpa.sh --cmd queue.pl --mem 8G -V data/lang_test_tgsmall data/lang_test_tglarge data/test_clean_hires exp/chain_cleaned/tdnn_1d_sp/decode_test_clean_tgsmall exp/chain_cleaned/tdnn_1d_sp/decode_test_clean_tglarge
++ steps/lmrescore_const_arpa.sh --cmd 'queue.pl --mem 8G -V' data/lang_test_tgsmall data/lang_test_tglarge data/dev_clean_hires exp/chain_cleaned/tdnn_1d_sp/decode_dev_clean_tgsmall exp/chain_cleaned/tdnn_1d_sp/decode_dev_clean_tglarge
+steps/lmrescore_const_arpa.sh --cmd queue.pl --mem 8G -V data/lang_test_tgsmall data/lang_test_tglarge data/dev_clean_hires exp/chain_cleaned/tdnn_1d_sp/decode_dev_clean_tgsmall exp/chain_cleaned/tdnn_1d_sp/decode_dev_clean_tglarge
++ steps/lmrescore_const_arpa.sh --cmd 'queue.pl --mem 8G -V' data/lang_test_tgsmall data/lang_test_tglarge data/test_other_hires exp/chain_cleaned/tdnn_1d_sp/decode_test_other_tgsmall exp/chain_cleaned/tdnn_1d_sp/decode_test_other_tglarge
+steps/lmrescore_const_arpa.sh --cmd queue.pl --mem 8G -V data/lang_test_tgsmall data/lang_test_tglarge data/test_other_hires exp/chain_cleaned/tdnn_1d_sp/decode_test_other_tgsmall exp/chain_cleaned/tdnn_1d_sp/decode_test_other_tglarge
++ steps/lmrescore_const_arpa.sh --cmd 'queue.pl --mem 8G -V' data/lang_test_tgsmall data/lang_test_tglarge data/dev_other_hires exp/chain_cleaned/tdnn_1d_sp/decode_dev_other_tgsmall exp/chain_cleaned/tdnn_1d_sp/decode_dev_other_tglarge
+steps/lmrescore_const_arpa.sh --cmd queue.pl --mem 8G -V data/lang_test_tgsmall data/lang_test_tglarge data/dev_other_hires exp/chain_cleaned/tdnn_1d_sp/decode_dev_other_tgsmall exp/chain_cleaned/tdnn_1d_sp/decode_dev_other_tglarge
++ steps/lmrescore_const_arpa.sh --cmd 'queue.pl --mem 8G -V' data/lang_test_tgsmall data/lang_test_fglarge data/test_clean_hires exp/chain_cleaned/tdnn_1d_sp/decode_test_clean_tgsmall exp/chain_cleaned/tdnn_1d_sp/decode_test_clean_fglarge
+steps/lmrescore_const_arpa.sh --cmd queue.pl --mem 8G -V data/lang_test_tgsmall data/lang_test_fglarge data/test_clean_hires exp/chain_cleaned/tdnn_1d_sp/decode_test_clean_tgsmall exp/chain_cleaned/tdnn_1d_sp/decode_test_clean_fglarge
++ steps/lmrescore_const_arpa.sh --cmd 'queue.pl --mem 8G -V' data/lang_test_tgsmall data/lang_test_fglarge data/dev_clean_hires exp/chain_cleaned/tdnn_1d_sp/decode_dev_clean_tgsmall exp/chain_cleaned/tdnn_1d_sp/decode_dev_clean_fglarge
+steps/lmrescore_const_arpa.sh --cmd queue.pl --mem 8G -V data/lang_test_tgsmall data/lang_test_fglarge data/dev_clean_hires exp/chain_cleaned/tdnn_1d_sp/decode_dev_clean_tgsmall exp/chain_cleaned/tdnn_1d_sp/decode_dev_clean_fglarge
++ steps/lmrescore_const_arpa.sh --cmd 'queue.pl --mem 8G -V' data/lang_test_tgsmall data/lang_test_fglarge data/test_other_hires exp/chain_cleaned/tdnn_1d_sp/decode_test_other_tgsmall exp/chain_cleaned/tdnn_1d_sp/decode_test_other_fglarge
+steps/lmrescore_const_arpa.sh --cmd queue.pl --mem 8G -V data/lang_test_tgsmall data/lang_test_fglarge data/test_other_hires exp/chain_cleaned/tdnn_1d_sp/decode_test_other_tgsmall exp/chain_cleaned/tdnn_1d_sp/decode_test_other_fglarge
++ steps/lmrescore_const_arpa.sh --cmd 'queue.pl --mem 8G -V' data/lang_test_tgsmall data/lang_test_fglarge data/dev_other_hires exp/chain_cleaned/tdnn_1d_sp/decode_dev_other_tgsmall exp/chain_cleaned/tdnn_1d_sp/decode_dev_other_fglarge
+steps/lmrescore_const_arpa.sh --cmd queue.pl --mem 8G -V data/lang_test_tgsmall data/lang_test_fglarge data/dev_other_hires exp/chain_cleaned/tdnn_1d_sp/decode_dev_other_tgsmall exp/chain_cleaned/tdnn_1d_sp/decode_dev_other_fglarge
++ '[' -f exp/chain_cleaned/tdnn_1d_sp/.error ']'
++ true
++ '[' 15 -le 18 ']'
++ steps/online/nnet3/prepare_online_decoding.sh --mfcc-config conf/mfcc_hires.conf data/lang_chain exp/nnet3_cleaned/extractor exp/chain_cleaned/tdnn_1d_sp exp/chain_cleaned/tdnn_1d_sp_online
+steps/online/nnet3/prepare_online_decoding.sh --mfcc-config conf/mfcc_hires.conf data/lang_chain exp/nnet3_cleaned/extractor exp/chain_cleaned/tdnn_1d_sp exp/chain_cleaned/tdnn_1d_sp_online
+steps/online/nnet3/prepare_online_decoding.sh: preparing configuration files in /nrg5/automotive/data/users/fuqiang_luo/source/kaldi/egs/librispeech/s5/exp/chain_cleaned/tdnn_1d_sp_online/conf
+steps/online/nnet3/prepare_online_decoding.sh: created config file /nrg5/automotive/data/users/fuqiang_luo/source/kaldi/egs/librispeech/s5/exp/chain_cleaned/tdnn_1d_sp_online/conf/online.conf
++ rm exp/chain_cleaned/tdnn_1d_sp/.error
++ true
++ for data in test_clean test_other dev_clean dev_other
++ for data in test_clean test_other dev_clean dev_other
++ for data in test_clean test_other dev_clean dev_other
++ for data in test_clean test_other dev_clean dev_other
++ wait
+++ wc -l
+++ wc -l
+++ wc -l
+++ wc -l
++ nspk=97
++ steps/online/nnet3/decode.sh --acwt 1.0 --post-decode-acwt 10.0 --nj 97 --cmd 'queue.pl --mem 8G -V' exp/chain_cleaned/tdnn_1d_sp/graph_tgsmall data/dev_clean exp/chain_cleaned/tdnn_1d_sp_online/decode_dev_clean_tgsmall
++ nspk=90
++ steps/online/nnet3/decode.sh --acwt 1.0 --post-decode-acwt 10.0 --nj 90 --cmd 'queue.pl --mem 8G -V' exp/chain_cleaned/tdnn_1d_sp/graph_tgsmall data/test_other exp/chain_cleaned/tdnn_1d_sp_online/decode_test_other_tgsmall
++ nspk=87
++ steps/online/nnet3/decode.sh --acwt 1.0 --post-decode-acwt 10.0 --nj 87 --cmd 'queue.pl --mem 8G -V' exp/chain_cleaned/tdnn_1d_sp/graph_tgsmall data/test_clean exp/chain_cleaned/tdnn_1d_sp_online/decode_test_clean_tgsmall
++ nspk=91
++ steps/online/nnet3/decode.sh --acwt 1.0 --post-decode-acwt 10.0 --nj 91 --cmd 'queue.pl --mem 8G -V' exp/chain_cleaned/tdnn_1d_sp/graph_tgsmall data/dev_other exp/chain_cleaned/tdnn_1d_sp_online/decode_dev_other_tgsmall
+steps/online/nnet3/decode.sh --acwt 1.0 --post-decode-acwt 10.0 --nj 97 --cmd queue.pl --mem 8G -V exp/chain_cleaned/tdnn_1d_sp/graph_tgsmall data/dev_clean exp/chain_cleaned/tdnn_1d_sp_online/decode_dev_clean_tgsmall
+steps/online/nnet3/decode.sh --acwt 1.0 --post-decode-acwt 10.0 --nj 91 --cmd queue.pl --mem 8G -V exp/chain_cleaned/tdnn_1d_sp/graph_tgsmall data/dev_other exp/chain_cleaned/tdnn_1d_sp_online/decode_dev_other_tgsmall
+steps/online/nnet3/decode.sh --acwt 1.0 --post-decode-acwt 10.0 --nj 90 --cmd queue.pl --mem 8G -V exp/chain_cleaned/tdnn_1d_sp/graph_tgsmall data/test_other exp/chain_cleaned/tdnn_1d_sp_online/decode_test_other_tgsmall
+steps/online/nnet3/decode.sh --acwt 1.0 --post-decode-acwt 10.0 --nj 87 --cmd queue.pl --mem 8G -V exp/chain_cleaned/tdnn_1d_sp/graph_tgsmall data/test_clean exp/chain_cleaned/tdnn_1d_sp_online/decode_test_clean_tgsmall
++ '[' -f exp/chain_cleaned/tdnn_1d_sp/.error ']'
++ exit 0
+[fuqiang_luo@unv-fuqiang7 ~/H/source/kaldi/egs/librispeech/s5]                            >
+[fuqiang_luo@unv-fuqiang7 ~/H/source/kaldi/egs/librispeech/s5]                            >
+[fuqiang_luo@unv-fuqiang7 ~/H/source/kaldi/egs/librispeech/s5]                            >
+[fuqiang_luo@unv-fuqiang7 ~/H/source/kaldi/egs/librispeech/s5]                            >
+[fuqiang_luo@unv-fuqiang7 ~/H/source/kaldi/egs/librispeech/s5]                            >
+[fuqiang_luo@unv-fuqiang7 ~/H/source/kaldi/egs/librispeech/s5]                            >
+[fuqiang_luo@unv-fuqiang7 ~/H/source/kaldi/egs/librispeech/s5]                            >
+[fuqiang_luo@unv-fuqiang7 ~/H/source/kaldi/egs/librispeech/s5]                            >
+[fuqiang_luo@unv-fuqiang7 ~/H/source/kaldi/egs/librispeech/s5]                            >
+[fuqiang_luo@unv-fuqiang7 ~/H/source/kaldi/egs/librispeech/s5]                            >
+[fuqiang_luo@unv-fuqiang7 ~/H/source/kaldi/egs/librispeech/s5]                            >
+[fuqiang_luo@unv-fuqiang7 ~/H/source/kaldi/egs/librispeech/s5]                            >
+[fuqiang_luo@unv-fuqiang7 ~/H/source/kaldi/egs/librispeech/s5]                            > ./local/chain/run_tdnn.sh --stage 15 --train_stage 12
++ stage=0
++ decode_nj=50
++ train_set=train_960_cleaned
++ gmm=tri6b_cleaned
++ nnet3_affix=_cleaned
++ affix=1d
++ tree_affix=
++ train_stage=-10
++ get_egs_stage=-10
++ decode_iter=
++ frames_per_eg=150,110,100
++ remove_egs=true
++ common_egs_dir=
++ xent_regularize=0.1
++ dropout_schedule=0,0@0.20,0.5@0.50,0
++ test_online_decoding=true
++ echo './local/chain/run_tdnn.sh --stage' 15 --train_stage 12
+./local/chain/run_tdnn.sh --stage 15 --train_stage 12
++ . ./cmd.sh
+++ export 'train_cmd=queue.pl --mem 8G -q grid -V'
+++ train_cmd='queue.pl --mem 8G -q grid -V'
+++ export 'decode_cmd=queue.pl --mem 8G -V'
+++ decode_cmd='queue.pl --mem 8G -V'
+++ export 'mkgraph_cmd=queue.pl --mem 8G -V'
+++ mkgraph_cmd='queue.pl --mem 8G -V'
+++ export 'cuda_cmd=queue.pl --gpu true'
+++ cuda_cmd='queue.pl --gpu true'
++ . ./path.sh
++++ pwd
+++ export KALDI_ROOT=/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../..
+++ KALDI_ROOT=/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../..
+++ export PATH=/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/utils/:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../tools/openfst/bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5:/home/fuqiang_luo/H/software/install/bin:/automotive/tools/gcc/gcc-6.4.0/bin:/automotive/tools/git/git-2.9.5/bin:/home/fuqiang_luo/H/bin:/nrg5/automotive/data/tools/jedit/bin:/opt/uge850/bin:/opt/uge850/bin/lx-amd64:/nrg5/automotive/data/tools/python/python2.7:/nrg5/automotive/data/tools/mercurial-2.2.2/:/nrg5/automotive/data/tools/python/python2.7/bin:/nrg5/automotive/data/tools/ccollab-client::/bin:/sbin:/usr/sbin:/usr/lib64:/usr/bin:/usr/local/bin:/usr/X11R6/bin:/home/fuqiang_luo/software/ffmpeg/ffmpeg-4.0-64bit-static
+++ PATH=/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/utils/:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../tools/openfst/bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5:/home/fuqiang_luo/H/software/install/bin:/automotive/tools/gcc/gcc-6.4.0/bin:/automotive/tools/git/git-2.9.5/bin:/home/fuqiang_luo/H/bin:/nrg5/automotive/data/tools/jedit/bin:/opt/uge850/bin:/opt/uge850/bin/lx-amd64:/nrg5/automotive/data/tools/python/python2.7:/nrg5/automotive/data/tools/mercurial-2.2.2/:/nrg5/automotive/data/tools/python/python2.7/bin:/nrg5/automotive/data/tools/ccollab-client::/bin:/sbin:/usr/sbin:/usr/lib64:/usr/bin:/usr/local/bin:/usr/X11R6/bin:/home/fuqiang_luo/software/ffmpeg/ffmpeg-4.0-64bit-static
+++ '[' '!' -f /home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../tools/config/common_path.sh ']'
+++ . /home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../tools/config/common_path.sh
++++ '[' -z /home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../.. ']'
++++ export PATH=/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/chainbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/featbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/fgmmbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/fstbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/gmmbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/ivectorbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/kwsbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/latbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/lmbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/nnet2bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/nnet3bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/nnetbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/online2bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/onlinebin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/rnnlmbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/sgmm2bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/sgmmbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/tfrnnlmbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/utils/:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../tools/openfst/bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5:/home/fuqiang_luo/H/software/install/bin:/automotive/tools/gcc/gcc-6.4.0/bin:/automotive/tools/git/git-2.9.5/bin:/home/fuqiang_luo/H/bin:/nrg5/automotive/data/tools/jedit/bin:/opt/uge850/bin:/opt/uge850/bin/lx-amd64:/nrg5/automotive/data/tools/python/python2.7:/nrg5/automotive/data/tools/mercurial-2.2.2/:/nrg5/automotive/data/tools/python/python2.7/bin:/nrg5/automotive/data/tools/ccollab-client::/bin:/sbin:/usr/sbin:/usr/lib64:/usr/bin:/usr/local/bin:/usr/X11R6/bin:/home/fuqiang_luo/software/ffmpeg/ffmpeg-4.0-64bit-static
++++ PATH=/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/chainbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/featbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/fgmmbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/fstbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/gmmbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/ivectorbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/kwsbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/latbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/lmbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/nnet2bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/nnet3bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/nnetbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/online2bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/onlinebin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/rnnlmbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/sgmm2bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/sgmmbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/tfrnnlmbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/utils/:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../tools/openfst/bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5:/home/fuqiang_luo/H/software/install/bin:/automotive/tools/gcc/gcc-6.4.0/bin:/automotive/tools/git/git-2.9.5/bin:/home/fuqiang_luo/H/bin:/nrg5/automotive/data/tools/jedit/bin:/opt/uge850/bin:/opt/uge850/bin/lx-amd64:/nrg5/automotive/data/tools/python/python2.7:/nrg5/automotive/data/tools/mercurial-2.2.2/:/nrg5/automotive/data/tools/python/python2.7/bin:/nrg5/automotive/data/tools/ccollab-client::/bin:/sbin:/usr/sbin:/usr/lib64:/usr/bin:/usr/local/bin:/usr/X11R6/bin:/home/fuqiang_luo/software/ffmpeg/ffmpeg-4.0-64bit-static
+++ export LC_ALL=C
+++ LC_ALL=C
+++ PYTHON=python2.7
+++ FEST_ROOT=tools/festival
+++ NSW_PATH=tools/festival/festival/bin:tools/festival/nsw/bin
+++ export PATH=/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/chainbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/featbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/fgmmbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/fstbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/gmmbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/ivectorbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/kwsbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/latbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/lmbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/nnet2bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/nnet3bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/nnetbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/online2bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/onlinebin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/rnnlmbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/sgmm2bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/sgmmbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/tfrnnlmbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/utils/:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../tools/openfst/bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5:/home/fuqiang_luo/H/software/install/bin:/automotive/tools/gcc/gcc-6.4.0/bin:/automotive/tools/git/git-2.9.5/bin:/home/fuqiang_luo/H/bin:/nrg5/automotive/data/tools/jedit/bin:/opt/uge850/bin:/opt/uge850/bin/lx-amd64:/nrg5/automotive/data/tools/python/python2.7:/nrg5/automotive/data/tools/mercurial-2.2.2/:/nrg5/automotive/data/tools/python/python2.7/bin:/nrg5/automotive/data/tools/ccollab-client::/bin:/sbin:/usr/sbin:/usr/lib64:/usr/bin:/usr/local/bin:/usr/X11R6/bin:/home/fuqiang_luo/software/ffmpeg/ffmpeg-4.0-64bit-static:tools/festival/festival/bin:tools/festival/nsw/bin
+++ PATH=/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/chainbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/featbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/fgmmbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/fstbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/gmmbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/ivectorbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/kwsbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/latbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/lmbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/nnet2bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/nnet3bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/nnetbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/online2bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/onlinebin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/rnnlmbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/sgmm2bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/sgmmbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/tfrnnlmbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/utils/:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../tools/openfst/bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5:/home/fuqiang_luo/H/software/install/bin:/automotive/tools/gcc/gcc-6.4.0/bin:/automotive/tools/git/git-2.9.5/bin:/home/fuqiang_luo/H/bin:/nrg5/automotive/data/tools/jedit/bin:/opt/uge850/bin:/opt/uge850/bin/lx-amd64:/nrg5/automotive/data/tools/python/python2.7:/nrg5/automotive/data/tools/mercurial-2.2.2/:/nrg5/automotive/data/tools/python/python2.7/bin:/nrg5/automotive/data/tools/ccollab-client::/bin:/sbin:/usr/sbin:/usr/lib64:/usr/bin:/usr/local/bin:/usr/X11R6/bin:/home/fuqiang_luo/software/ffmpeg/ffmpeg-4.0-64bit-static:tools/festival/festival/bin:tools/festival/nsw/bin
+++ SRILM_ROOT=/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../tools/srilm
+++ SRILM_PATH=/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../tools/srilm/bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../tools/srilm/bin/i686-m64
+++ export PATH=/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/chainbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/featbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/fgmmbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/fstbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/gmmbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/ivectorbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/kwsbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/latbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/lmbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/nnet2bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/nnet3bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/nnetbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/online2bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/onlinebin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/rnnlmbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/sgmm2bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/sgmmbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/tfrnnlmbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/utils/:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../tools/openfst/bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5:/home/fuqiang_luo/H/software/install/bin:/automotive/tools/gcc/gcc-6.4.0/bin:/automotive/tools/git/git-2.9.5/bin:/home/fuqiang_luo/H/bin:/nrg5/automotive/data/tools/jedit/bin:/opt/uge850/bin:/opt/uge850/bin/lx-amd64:/nrg5/automotive/data/tools/python/python2.7:/nrg5/automotive/data/tools/mercurial-2.2.2/:/nrg5/automotive/data/tools/python/python2.7/bin:/nrg5/automotive/data/tools/ccollab-client::/bin:/sbin:/usr/sbin:/usr/lib64:/usr/bin:/usr/local/bin:/usr/X11R6/bin:/home/fuqiang_luo/software/ffmpeg/ffmpeg-4.0-64bit-static:tools/festival/festival/bin:tools/festival/nsw/bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../tools/srilm/bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../tools/srilm/bin/i686-m64
+++ PATH=/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/chainbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/featbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/fgmmbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/fstbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/gmmbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/ivectorbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/kwsbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/latbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/lmbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/nnet2bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/nnet3bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/nnetbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/online2bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/onlinebin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/rnnlmbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/sgmm2bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/sgmmbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../src/tfrnnlmbin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/utils/:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../tools/openfst/bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5:/home/fuqiang_luo/H/software/install/bin:/automotive/tools/gcc/gcc-6.4.0/bin:/automotive/tools/git/git-2.9.5/bin:/home/fuqiang_luo/H/bin:/nrg5/automotive/data/tools/jedit/bin:/opt/uge850/bin:/opt/uge850/bin/lx-amd64:/nrg5/automotive/data/tools/python/python2.7:/nrg5/automotive/data/tools/mercurial-2.2.2/:/nrg5/automotive/data/tools/python/python2.7/bin:/nrg5/automotive/data/tools/ccollab-client::/bin:/sbin:/usr/sbin:/usr/lib64:/usr/bin:/usr/local/bin:/usr/X11R6/bin:/home/fuqiang_luo/software/ffmpeg/ffmpeg-4.0-64bit-static:tools/festival/festival/bin:tools/festival/nsw/bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../tools/srilm/bin:/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../tools/srilm/bin/i686-m64
+++ sequitur=/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../tools/sequitur/g2p.py
++++ dirname /home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../tools/sequitur/g2p.py
+++ sequitur_path=/home/fuqiang_luo/H/source/kaldi/egs/librispeech/s5/../../../tools/sequitur/lib/python2.7/site-packages
+++ LM_CORPUS_ROOT=./lm-corpus
+++ export LD_LIBRARY_PATH=/automotive/tools/gcc/gcc-6.4.0/lib64:/usr/local/lib64:/lib64:/usr/lib64
+++ LD_LIBRARY_PATH=/automotive/tools/gcc/gcc-6.4.0/lib64:/usr/local/lib64:/lib64:/usr/lib64
+++ export SGE_ROOT=/opt/uge
+++ SGE_ROOT=/opt/uge
+++ export SGE_CELL=nrg5
+++ SGE_CELL=nrg5
+++ export SGE_CLUSTER_NAME=nrg5
+++ SGE_CLUSTER_NAME=nrg5
+++ export SGE_QMASTER_PORT=6444
+++ SGE_QMASTER_PORT=6444
+++ export SGE_EXECD_PORT=6445
+++ SGE_EXECD_PORT=6445
+++ export TMPDIR=/work
+++ TMPDIR=/work
++ . ./utils/parse_options.sh
+++ (( argpos=1 ))
+++ (( argpos<4 ))
+++ '[' --stage == --config ']'
+++ (( argpos++ ))
+++ (( argpos<4 ))
+++ '[' 15 == --config ']'
+++ (( argpos++ ))
+++ (( argpos<4 ))
+++ '[' --train_stage == --config ']'
+++ (( argpos++ ))
+++ (( argpos<4 ))
+++ true
+++ '[' -z --stage ']'
+++ case "$1" in
++++ sed 's/^--//'
++++ echo --stage
++++ sed s/-/_/g
+++ name=stage
+++ eval '[ -z "${stage+xxx}" ]'
++++ '[' -z xxx ']'
++++ eval echo '$stage'
+++++ echo 0
+++ oldval=0
+++ '[' 0 == true ']'
+++ '[' 0 == false ']'
+++ was_bool=false
+++ eval 'stage="15"'
++++ stage=15
+++ false
+++ shift 2
+++ true
+++ '[' -z --train_stage ']'
+++ case "$1" in
++++ sed 's/^--//'
++++ echo --train_stage
++++ sed s/-/_/g
+++ name=train_stage
+++ eval '[ -z "${train_stage+xxx}" ]'
++++ '[' -z xxx ']'
++++ eval echo '$train_stage'
+++++ echo -10
+++ oldval=-10
+++ '[' -10 == true ']'
+++ '[' -10 == false ']'
+++ was_bool=false
+++ eval 'train_stage="12"'
++++ train_stage=12
+++ false
+++ shift 2
+++ true
+++ '[' -z '' ']'
+++ break
+++ '[' '!' -z '' ']'
+++ true
++ local/nnet3/run_ivector_common.sh --stage 15 --train-set train_960_cleaned --gmm tri6b_cleaned --num-threads-ubm 6 --num-processes 3 --nnet3-affix _cleaned
++ gmm_dir=exp/tri6b_cleaned
++ ali_dir=exp/tri6b_cleaned_ali_train_960_cleaned_sp
++ tree_dir=exp/chain_cleaned/tree_sp
++ lang=data/lang_chain
++ lat_dir=exp/chain_cleaned/tri6b_cleaned_train_960_cleaned_sp_lats
++ dir=exp/chain_cleaned/tdnn_1d_sp
++ train_data_dir=data/train_960_cleaned_sp_hires
++ lores_train_data_dir=data/train_960_cleaned_sp
++ train_ivector_dir=exp/nnet3_cleaned/ivectors_train_960_cleaned_sp_hires
++ for f in '$gmm_dir/final.mdl' '$train_data_dir/feats.scp' '$train_ivector_dir/ivector_online.scp' '$lores_train_data_dir/feats.scp' '$ali_dir/ali.1.gz'
++ '[' '!' -f exp/tri6b_cleaned/final.mdl ']'
++ for f in '$gmm_dir/final.mdl' '$train_data_dir/feats.scp' '$train_ivector_dir/ivector_online.scp' '$lores_train_data_dir/feats.scp' '$ali_dir/ali.1.gz'
++ '[' '!' -f data/train_960_cleaned_sp_hires/feats.scp ']'
++ for f in '$gmm_dir/final.mdl' '$train_data_dir/feats.scp' '$train_ivector_dir/ivector_online.scp' '$lores_train_data_dir/feats.scp' '$ali_dir/ali.1.gz'
++ '[' '!' -f exp/nnet3_cleaned/ivectors_train_960_cleaned_sp_hires/ivector_online.scp ']'
++ for f in '$gmm_dir/final.mdl' '$train_data_dir/feats.scp' '$train_ivector_dir/ivector_online.scp' '$lores_train_data_dir/feats.scp' '$ali_dir/ali.1.gz'
++ '[' '!' -f data/train_960_cleaned_sp/feats.scp ']'
++ for f in '$gmm_dir/final.mdl' '$train_data_dir/feats.scp' '$train_ivector_dir/ivector_online.scp' '$lores_train_data_dir/feats.scp' '$ali_dir/ali.1.gz'
++ '[' '!' -f exp/tri6b_cleaned_ali_train_960_cleaned_sp/ali.1.gz ']'
++ local/chain/run_chain_common.sh --stage 15 --gmm-dir exp/tri6b_cleaned --ali-dir exp/tri6b_cleaned_ali_train_960_cleaned_sp --lores-train-data-dir data/train_960_cleaned_sp --lang data/lang_chain --lat-dir exp/chain_cleaned/tri6b_cleaned_train_960_cleaned_sp_lats --num-leaves 7000 --tree-dir exp/chain_cleaned/tree_sp
+local/chain/run_chain_common.sh --stage 15 --gmm-dir exp/tri6b_cleaned --ali-dir exp/tri6b_cleaned_ali_train_960_cleaned_sp --lores-train-data-dir data/train_960_cleaned_sp --lang data/lang_chain --lat-dir exp/chain_cleaned/tri6b_cleaned_train_960_cleaned_sp_lats --num-leaves 7000 --tree-dir exp/chain_cleaned/tree_sp
++ '[' 15 -le 14 ']'
++ echo train_stage 12, stage 15
+train_stage 12, stage 15
++ '[' 15 -le 15 ']'
+++ hostname -f
++ [[ unv-fuqiang7.nrc1.us.grid.nuance.com == *.clsp.jhu.edu ]]
++ steps/nnet3/chain/train.py --stage 12 --cmd 'queue.pl --mem 8G -V' --feat.online-ivector-dir exp/nnet3_cleaned/ivectors_train_960_cleaned_sp_hires --feat.cmvn-opts '--norm-means=false --norm-vars=false' --chain.xent-regularize 0.1 --chain.leaky-hmm-coefficient 0.1 --chain.l2-regularize 0.0 --chain.apply-deriv-weights false --chain.lm-opts=--num-extra-lm-states=2000 --egs.dir '' --egs.stage -10 --egs.opts '--frames-overlap-per-eg 0 --constrained false' --egs.chunk-width 150,110,100 --trainer.dropout-schedule 0,0@0.20,0.5@0.50,0 --trainer.add-option=--optimization.memory-compression-level=2 --trainer.num-chunk-per-minibatch 64 --trainer.frames-per-iter 2500000 --trainer.num-epochs 4 --trainer.optimization.num-jobs-initial 3 --trainer.optimization.num-jobs-final 16 --trainer.optimization.initial-effective-lrate 0.00015 --trainer.optimization.final-effective-lrate 0.000015 --trainer.max-param-change 2.0 --cleanup.remove-egs true --feat-dir data/train_960_cleaned_sp_hires --tree-dir exp/chain_cleaned/tree_sp --lat-dir exp/chain_cleaned/tri6b_cleaned_train_960_cleaned_sp_lats --dir exp/chain_cleaned/tdnn_1d_sp
+2019-09-08 02:45:37,167 [steps/nnet3/chain/train.py:33 - <module> - INFO ] Starting chain model trainer (train.py)
+steps/nnet3/chain/train.py --stage 12 --cmd queue.pl --mem 8G -V --feat.online-ivector-dir exp/nnet3_cleaned/ivectors_train_960_cleaned_sp_hires --feat.cmvn-opts --norm-means=false --norm-vars=false --chain.xent-regularize 0.1 --chain.leaky-hmm-coefficient 0.1 --chain.l2-regularize 0.0 --chain.apply-deriv-weights false --chain.lm-opts=--num-extra-lm-states=2000 --egs.dir  --egs.stage -10 --egs.opts --frames-overlap-per-eg 0 --constrained false --egs.chunk-width 150,110,100 --trainer.dropout-schedule 0,0@0.20,0.5@0.50,0 --trainer.add-option=--optimization.memory-compression-level=2 --trainer.num-chunk-per-minibatch 64 --trainer.frames-per-iter 2500000 --trainer.num-epochs 4 --trainer.optimization.num-jobs-initial 3 --trainer.optimization.num-jobs-final 16 --trainer.optimization.initial-effective-lrate 0.00015 --trainer.optimization.final-effective-lrate 0.000015 --trainer.max-param-change 2.0 --cleanup.remove-egs true --feat-dir data/train_960_cleaned_sp_hires --tree-dir exp/chain_cleaned/tree_sp --lat-dir exp/chain_cleaned/tri6b_cleaned_train_960_cleaned_sp_lats --dir exp/chain_cleaned/tdnn_1d_sp
+['steps/nnet3/chain/train.py', '--stage', '12', '--cmd', 'queue.pl --mem 8G -V', '--feat.online-ivector-dir', 'exp/nnet3_cleaned/ivectors_train_960_cleaned_sp_hires', '--feat.cmvn-opts', '--norm-means=false --norm-vars=false', '--chain.xent-regularize', '0.1', '--chain.leaky-hmm-coefficient', '0.1', '--chain.l2-regularize', '0.0', '--chain.apply-deriv-weights', 'false', '--chain.lm-opts=--num-extra-lm-states=2000', '--egs.dir', '', '--egs.stage', '-10', '--egs.opts', '--frames-overlap-per-eg 0 --constrained false', '--egs.chunk-width', '150,110,100', '--trainer.dropout-schedule', '0,0@0.20,0.5@0.50,0', '--trainer.add-option=--optimization.memory-compression-level=2', '--trainer.num-chunk-per-minibatch', '64', '--trainer.frames-per-iter', '2500000', '--trainer.num-epochs', '4', '--trainer.optimization.num-jobs-initial', '3', '--trainer.optimization.num-jobs-final', '16', '--trainer.optimization.initial-effective-lrate', '0.00015', '--trainer.optimization.final-effective-lrate', '0.000015', '--trainer.max-param-change', '2.0', '--cleanup.remove-egs', 'true', '--feat-dir', 'data/train_960_cleaned_sp_hires', '--tree-dir', 'exp/chain_cleaned/tree_sp', '--lat-dir', 'exp/chain_cleaned/tri6b_cleaned_train_960_cleaned_sp_lats', '--dir', 'exp/chain_cleaned/tdnn_1d_sp']
+2019-09-08 02:45:38,243 [steps/nnet3/chain/train.py:271 - train - INFO ] Arguments for the experiment
+{'alignment_subsampling_factor': 3,
+ 'apply_deriv_weights': False,
+ 'backstitch_training_interval': 1,
+ 'backstitch_training_scale': 0.0,
+ 'chunk_left_context': 0,
+ 'chunk_left_context_initial': -1,
+ 'chunk_right_context': 0,
+ 'chunk_right_context_final': -1,
+ 'chunk_width': '150,110,100',
+ 'cleanup': True,
+ 'cmvn_opts': '--norm-means=false --norm-vars=false',
+ 'combine_sum_to_one_penalty': 0.0,
+ 'command': 'queue.pl --mem 8G -V',
+ 'compute_per_dim_accuracy': False,
+ 'deriv_truncate_margin': None,
+ 'dir': 'exp/chain_cleaned/tdnn_1d_sp',
+ 'do_final_combination': True,
+ 'dropout_schedule': '0,0@0.20,0.5@0.50,0',
+ 'egs_command': None,
+ 'egs_dir': None,
+ 'egs_opts': '--frames-overlap-per-eg 0 --constrained false',
+ 'egs_stage': -10,
+ 'email': None,
+ 'exit_stage': None,
+ 'feat_dir': 'data/train_960_cleaned_sp_hires',
+ 'final_effective_lrate': 1.5e-05,
+ 'frame_subsampling_factor': 3,
+ 'frames_per_iter': 2500000,
+ 'initial_effective_lrate': 0.00015,
+ 'input_model': None,
+ 'l2_regularize': 0.0,
+ 'lat_dir': 'exp/chain_cleaned/tri6b_cleaned_train_960_cleaned_sp_lats',
+ 'leaky_hmm_coefficient': 0.1,
+ 'left_deriv_truncate': None,
+ 'left_tolerance': 5,
+ 'lm_opts': '--num-extra-lm-states=2000',
+ 'max_lda_jobs': 10,
+ 'max_models_combine': 20,
+ 'max_objective_evaluations': 30,
+ 'max_param_change': 2.0,
+ 'momentum': 0.0,
+ 'num_chunk_per_minibatch': '64',
+ 'num_epochs': 4.0,
+ 'num_jobs_final': 16,
+ 'num_jobs_initial': 3,
+ 'online_ivector_dir': 'exp/nnet3_cleaned/ivectors_train_960_cleaned_sp_hires',
+ 'preserve_model_interval': 100,
+ 'presoftmax_prior_scale_power': -0.25,
+ 'proportional_shrink': 0.0,
+ 'rand_prune': 4.0,
+ 'remove_egs': True,
+ 'reporting_interval': 0.1,
+ 'right_tolerance': 5,
+ 'samples_per_iter': 400000,
+ 'shrink_saturation_threshold': 0.4,
+ 'shrink_value': 1.0,
+ 'shuffle_buffer_size': 5000,
+ 'srand': 0,
+ 'stage': 12,
+ 'train_opts': ['--optimization.memory-compression-level=2'],
+ 'tree_dir': 'exp/chain_cleaned/tree_sp',
+ 'use_gpu': 'yes',
+ 'xent_regularize': 0.1}
+2019-09-08 02:45:44,778 [steps/nnet3/chain/train.py:408 - train - INFO ] Copying the properties from exp/chain_cleaned/tdnn_1d_sp/egs to exp/chain_cleaned/tdnn_1d_sp
+2019-09-08 02:45:44,832 [steps/nnet3/chain/train.py:465 - train - INFO ] Training will run for 4.0 epochs = 521 iterations
+2019-09-08 02:45:44,834 [steps/nnet3/chain/train.py:507 - train - INFO ] Iter: 12/520    Epoch: 0.03/4.0 (0.7% complete)    lr: 0.000443
+queue.pl: Error submitting jobs to queue (return status was 256)
+queue log file is exp/chain_cleaned/tdnn_1d_sp/q/compute_prob_valid.12.log, command was qsub -v PATH -v LD_LIBRARY_PATH -cwd -S /bin/bash -j y -sync y -o exp/chain_cleaned/tdnn_1d_sp/q/compute_prob_valid.12.log -V  -l mem_free=8G   /nrg5/automotive/data/users/fuqiang_luo/source/kaldi/egs/librispeech/s5/exp/chain_cleaned/tdnn_1d_sp/q/compute_prob_valid.12.sh >>exp/chain_cleaned/tdnn_1d_sp/q/compute_prob_valid.12.log 2>&1
+Output of qsub was: removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue
+Your job 104470634 ("compute_prob_valid.12.sh") has been submitted
+Job 104470634 exited with exit code 1.
+
+2019-09-08 02:45:53,515 [steps/libs/common.py:240 - background_command_waiter - WARNING ] Command exited with status 1: queue.pl --mem 8G -V exp/chain_cleaned/tdnn_1d_sp/log/compute_prob_valid.12.log                 nnet3-chain-compute-prob --l2-regularize=0.0                 --leaky-hmm-coefficient=0.1 --xent-regularize=0.1                 exp/chain_cleaned/tdnn_1d_sp/12.mdl exp/chain_cleaned/tdnn_1d_sp/den.fst                 "ark,bg:nnet3-chain-copy-egs  ark:exp/chain_cleaned/tdnn_1d_sp/egs/valid_diagnostic.cegs                     ark:- | nnet3-chain-merge-egs --minibatch-size=1:64 ark:- ark:- |"
+queue.pl: Error submitting jobs to queue (return status was 256)
+queue log file is exp/chain_cleaned/tdnn_1d_sp/q/train.12.2.log, command was qsub -v PATH -v LD_LIBRARY_PATH -cwd -S /bin/bash -j y -sync y -o exp/chain_cleaned/tdnn_1d_sp/q/train.12.2.log -V -l mem_free=8G -l gpu=true,gpu.num=1   /nrg5/automotive/data/users/fuqiang_luo/source/kaldi/egs/librispeech/s5/exp/chain_cleaned/tdnn_1d_sp/q/train.12.2.sh >>exp/chain_cleaned/tdnn_1d_sp/q/train.12.2.log 2>&1
+queue.pl: Error submitting jobs to queue (return status was 256)
+queue log file is exp/chain_cleaned/tdnn_1d_sp/q/train.12.1.log, command was qsub -v PATH -v LD_LIBRARY_PATH -cwd -S /bin/bash -j y -sync y -o exp/chain_cleaned/tdnn_1d_sp/q/train.12.1.log -V -l gpu=true,gpu.num=1 -l mem_free=8G   /nrg5/automotive/data/users/fuqiang_luo/source/kaldi/egs/librispeech/s5/exp/chain_cleaned/tdnn_1d_sp/q/train.12.1.sh >>exp/chain_cleaned/tdnn_1d_sp/q/train.12.1.log 2>&1
+Output of qsub was: removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue
+Your job 104470631 ("train.12.2.sh") has been submitted
+Job 104470631 exited with exit code 1.
+
+2019-09-08 02:45:54,783 [steps/libs/common.py:235 - background_command_waiter - ERROR ] Command exited with status 1: queue.pl --mem 8G -V --gpu true exp/chain_cleaned/tdnn_1d_sp/log/train.12.2.log                     nnet3-chain-train --use-gpu=yes                      --apply-deriv-weights=False                     --l2-regularize=0.0 --leaky-hmm-coefficient=0.1                     --read-cache=exp/chain_cleaned/tdnn_1d_sp/cache.12  --xent-regularize=0.1                                          --print-interval=10 --momentum=0.0                     --max-param-change=2.0                     --backstitch-training-scale=0.0                     --backstitch-training-interval=1                     --l2-regularize-factor=0.333333333333 --optimization.memory-compression-level=2                     --srand=12                     "nnet3-am-copy --raw=true --learning-rate=0.000442535984948 --scale=1.0 exp/chain_cleaned/tdnn_1d_sp/12.mdl - |nnet3-copy --edits='set-dropout-proportion name=* proportion=0.0' - - |" exp/chain_cleaned/tdnn_1d_sp/den.fst                     "ark,bg:nnet3-chain-copy-egs                          --frame-shift=2                         ark:exp/chain_cleaned/tdnn_1d_sp/egs/cegs.38.ark ark:- |                         nnet3-chain-shuffle-egs --buffer-size=5000                         --srand=12 ark:- ark:- | nnet3-chain-merge-egs                         --minibatch-size=64 ark:- ark:- |"                     exp/chain_cleaned/tdnn_1d_sp/13.2.raw
+Output of qsub was: removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue
+Your job 104470632 ("train.12.1.sh") has been submitted
+Job 104470632 exited with exit code 1.
+
+2019-09-08 02:45:54,799 [steps/libs/common.py:235 - background_command_waiter - ERROR ] Command exited with status 1: queue.pl --mem 8G -V --gpu true exp/chain_cleaned/tdnn_1d_sp/log/train.12.1.log                     nnet3-chain-train --use-gpu=yes                      --apply-deriv-weights=False                     --l2-regularize=0.0 --leaky-hmm-coefficient=0.1                     --read-cache=exp/chain_cleaned/tdnn_1d_sp/cache.12 --write-cache=exp/chain_cleaned/tdnn_1d_sp/cache.13  --xent-regularize=0.1                                          --print-interval=10 --momentum=0.0                     --max-param-change=2.0                     --backstitch-training-scale=0.0                     --backstitch-training-interval=1                     --l2-regularize-factor=0.333333333333 --optimization.memory-compression-level=2                     --srand=12                     "nnet3-am-copy --raw=true --learning-rate=0.000442535984948 --scale=1.0 exp/chain_cleaned/tdnn_1d_sp/12.mdl - |nnet3-copy --edits='set-dropout-proportion name=* proportion=0.0' - - |" exp/chain_cleaned/tdnn_1d_sp/den.fst                     "ark,bg:nnet3-chain-copy-egs                          --frame-shift=1                         ark:exp/chain_cleaned/tdnn_1d_sp/egs/cegs.37.ark ark:- |                         nnet3-chain-shuffle-egs --buffer-size=5000                         --srand=12 ark:- ark:- | nnet3-chain-merge-egs                         --minibatch-size=64 ark:- ark:- |"                     exp/chain_cleaned/tdnn_1d_sp/13.1.raw
++ exit 1
+[fuqiang_luo@unv-fuqiang7 ~/H/source/kaldi/egs/librispeech/s5]                            >
+[fuqiang_luo@unv-fuqiang7 ~/H/source/kaldi/egs/librispeech/s5]                            >
+[fuqiang_luo@unv-fuqiang7 ~/H/source/kaldi/egs/librispeech/s5]                            > queue.pl: Error submitting jobs to queue (return status was 256)
+queue log file is exp/chain_cleaned/tdnn_1d_sp/q/compute_prob_train.12.log, command was qsub -v PATH -v LD_LIBRARY_PATH -cwd -S /bin/bash -j y -sync y -o exp/chain_cleaned/tdnn_1d_sp/q/compute_prob_train.12.log -V -l mem_free=8G    /nrg5/automotive/data/users/fuqiang_luo/source/kaldi/egs/librispeech/s5/exp/chain_cleaned/tdnn_1d_sp/q/compute_prob_train.12.sh >>exp/chain_cleaned/tdnn_1d_sp/q/compute_prob_train.12.log 2>&1
+Output of qsub was: removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue
+Your job 104470629 ("compute_prob_train.12.sh") has been submitted
+Job 104470629 exited with exit code 1.
+
+queue.pl: Error submitting jobs to queue (return status was 256)
+queue log file is exp/chain_cleaned/tdnn_1d_sp/q/train.12.3.log, command was qsub -v PATH -v LD_LIBRARY_PATH -cwd -S /bin/bash -j y -sync y -o exp/chain_cleaned/tdnn_1d_sp/q/train.12.3.log -V -l mem_free=8G -l gpu=true,gpu.num=1   /nrg5/automotive/data/users/fuqiang_luo/source/kaldi/egs/librispeech/s5/exp/chain_cleaned/tdnn_1d_sp/q/train.12.3.sh >>exp/chain_cleaned/tdnn_1d_sp/q/train.12.3.log 2>&1
+Output of qsub was: removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue
+Your job 104470633 ("train.12.3.sh") has been submitted
+Job 104470633 exited with exit code 1.
+
+queue.pl: Error submitting jobs to queue (return status was 256)
+queue log file is exp/chain_cleaned/tdnn_1d_sp/q/progress.12.log, command was qsub -v PATH -v LD_LIBRARY_PATH -cwd -S /bin/bash -j y -sync y -o exp/chain_cleaned/tdnn_1d_sp/q/progress.12.log -V -l mem_free=8G    /nrg5/automotive/data/users/fuqiang_luo/source/kaldi/egs/librispeech/s5/exp/chain_cleaned/tdnn_1d_sp/q/progress.12.sh >>exp/chain_cleaned/tdnn_1d_sp/q/progress.12.log 2>&1
+Output of qsub was: removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue
+Your job 104470630 ("progress.12.sh") has been submitted
+Job 104470630 exited with exit code 1.
+

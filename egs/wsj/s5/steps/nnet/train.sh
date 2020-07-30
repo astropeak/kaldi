@@ -140,7 +140,7 @@ if [ -e $dir/final.nnet ]; then
 fi
 
 # check if CUDA compiled in and GPU is available,
-if ! $skip_cuda_check; then cuda-gpu-available || exit 1; fi
+# if ! $skip_cuda_check; then cuda-gpu-available || exit 1; fi
 
 ###### PREPARE ALIGNMENTS ######
 echo

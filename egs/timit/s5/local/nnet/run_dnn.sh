@@ -49,6 +49,7 @@ if [ $stage -le 0 ]; then
   utils/subset_data_dir_tr_cv.sh $dir ${dir}_tr90 ${dir}_cv10 || exit 1
 fi
 
+echo $stage
 if [ $stage -le 1 ]; then
   # Pre-train DBN, i.e. a stack of RBMs (small database, smaller DNN)
   dir=exp/dnn4_pretrain-dbn

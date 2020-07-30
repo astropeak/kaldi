@@ -25,3 +25,13 @@ sequitur_path="$(dirname $sequitur)/lib/$PYTHON/site-packages"
 
 # Directory under which the LM training corpus should be extracted
 LM_CORPUS_ROOT=./lm-corpus
+
+
+
+export LD_LIBRARY_PATH=/automotive/tools/gcc/gcc-6.4.0/lib64:/usr/local/lib64:/lib64:/usr/lib64
+export SGE_ROOT=/opt/uge
+export SGE_CELL=nrg5
+export SGE_CLUSTER_NAME=nrg5
+export SGE_QMASTER_PORT=6444
+export SGE_EXECD_PORT=6445
+export TMPDIR=/work
